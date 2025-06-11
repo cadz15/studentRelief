@@ -1,5 +1,4 @@
 import { Link } from "@inertiajs/react";
-import React from "react";
 
 const Nav = ({ className = "", ...props }) => {
     return (
@@ -47,7 +46,49 @@ const Nav = ({ className = "", ...props }) => {
                     >
                         Estimate Payments
                     </Link>
+
+                    <Link
+                        href="https://myedusolutions.com/reviews/"
+                        className="nav-link px-4 py-2 rounded-lg font-medium"
+                    >
+                        Reviews
+                    </Link>
+
+                    <Link
+                        href="https://myedusolutions.com/about-us/"
+                        className="nav-link px-4 py-2 rounded-lg font-medium"
+                    >
+                        About Us
+                    </Link>
+
+                    <Link
+                        href="https://myedusolutions.com/faqs/"
+                        className="nav-link px-4 py-2 rounded-lg font-medium"
+                    >
+                        FAQs
+                    </Link>
+
+                    <Link
+                        href="https://myedusolutions.com/contact-us/"
+                        className="nav-link px-4 py-2 rounded-lg font-medium"
+                    >
+                        Contact Us
+                    </Link>
+
+                    <Link
+                        href="https://myedusolutions.com/advisor/"
+                        className="ml-2 bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold px-6 py-2 rounded-lg transition duration-300"
+                    >
+                        Speak to an Advisor
+                    </Link>
                 </div>
+
+                <button
+                    className="lg:hidden focus:outline-none"
+                    id="mobile-menu-button"
+                >
+                    <i className="fas fa-bars text-2xl"></i>
+                </button>
             </nav>
         </header>
     );
