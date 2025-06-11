@@ -1,11 +1,13 @@
 import { Link } from "@inertiajs/react";
+import NavLink from "./NavLink";
+import NavLinkDropDown from "./NavLinkDropDown";
 
 const Nav = ({ className = "", ...props }) => {
     return (
         <header
-            className={`gradient-bg text-white sticky top-0 z-50 shadow-md ${className}`}
+            className={`gradient-bg h-24 text-white sticky top-0 z-50 shadow-md bg-gradient-to-br from-blue-900 to-blue-600 ${className}`}
         >
-            <nav className="container mx-auto px-4 py-3 flex justify-between items-center">
+            <nav className="2xl:container mx-auto px-4 h-full flex justify-between items-center">
                 <div className="flex items-center">
                     <Link href="/">
                         <img src="" alt="Student Loan Relief" />
@@ -13,71 +15,65 @@ const Nav = ({ className = "", ...props }) => {
                 </div>
 
                 <div className="hidden lg:flex items-center space-x-1">
-                    <div className="dropdown relative">
-                        <button className="nav-link px-4 py-2 rounded-lg font-medium flex items-center">
-                            Programs
-                            <i className="fas fa-chevron-down ml-2 text-xs"></i>
-                        </button>
-                        <div className="dropdown-menu absolute hidden mt-2 w-48 bg-white rounded-md shadow-lg z-50">
-                            <Link
-                                href="https://myedusolutions.com/programs/student-loan-forgiveness/"
-                                className="block px-4 py-2 text-gray-800 hover:bg-blue-50"
-                            >
-                                Student Loan Forgiveness
-                            </Link>
-                            <Link
-                                href="https://myedusolutions.com/programs/disability-discharge/"
-                                className="block px-4 py-2 text-gray-800 hover:bg-blue-50"
-                            >
-                                Disability Discharge
-                            </Link>
-                            <Link
-                                href="https://myedusolutions.com/programs/borrower-defense-program/"
-                                className="block px-4 py-2 text-gray-800 hover:bg-blue-50"
-                            >
-                                Borrower Defense Program
-                            </Link>
-                        </div>
-                    </div>
+                    <NavLinkDropDown title="Programs">
+                        <Link
+                            href="https://myedusolutions.com/programs/student-loan-forgiveness/"
+                            className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-blue-50"
+                        >
+                            Student Loan Forgiveness
+                        </Link>
+                        <Link
+                            href="https://myedusolutions.com/programs/disability-discharge/"
+                            className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-blue-50"
+                        >
+                            Disability Discharge
+                        </Link>
+                        <Link
+                            href="https://myedusolutions.com/programs/borrower-defense-program/"
+                            className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-blue-50"
+                        >
+                            Borrower Defense Program
+                        </Link>
+                    </NavLinkDropDown>
 
-                    <Link
+                    <NavLink
                         href="https://myedusolutions.com/calculator/"
-                        className="nav-link px-4 py-2 rounded-lg font-medium"
+                        active={false}
                     >
                         Estimate Payments
-                    </Link>
+                    </NavLink>
 
-                    <Link
+                    <NavLink
                         href="https://myedusolutions.com/reviews/"
-                        className="nav-link px-4 py-2 rounded-lg font-medium"
+                        active={false}
                     >
                         Reviews
-                    </Link>
+                    </NavLink>
 
-                    <Link
+                    <NavLink
                         href="https://myedusolutions.com/about-us/"
-                        className="nav-link px-4 py-2 rounded-lg font-medium"
+                        active={false}
                     >
                         About Us
-                    </Link>
+                    </NavLink>
 
-                    <Link
+                    <NavLink
                         href="https://myedusolutions.com/faqs/"
-                        className="nav-link px-4 py-2 rounded-lg font-medium"
+                        active={false}
                     >
                         FAQs
-                    </Link>
+                    </NavLink>
 
-                    <Link
+                    <NavLink
                         href="https://myedusolutions.com/contact-us/"
-                        className="nav-link px-4 py-2 rounded-lg font-medium"
+                        active={false}
                     >
                         Contact Us
-                    </Link>
+                    </NavLink>
 
                     <Link
                         href="https://myedusolutions.com/advisor/"
-                        className="ml-2 bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold px-6 py-2 rounded-lg transition duration-300"
+                        className="ml-2 bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold px-6 py-2 rounded-sm transition duration-300"
                     >
                         Speak to an Advisor
                     </Link>
