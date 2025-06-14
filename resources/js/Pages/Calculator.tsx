@@ -1,4 +1,6 @@
+import CTAButton from "@/Components/CTAButton";
 import Guest from "@/Layouts/GuestLayout";
+import { Link } from "@inertiajs/react";
 import React, { useState } from "react";
 import { FaHandHoldingUsd, FaSearchDollar } from "react-icons/fa";
 import {
@@ -104,7 +106,7 @@ export default function Calculator() {
                             Calculate Your Lower Student Loan Payments and
                             Forgiveness Options
                         </h1>
-                        <p className="text-xl mb-8">
+                        <p className="text-xl mb-8 text-yellow-300">
                             See your estimated new payment instantly.
                         </p>
                         <p className="mb-8">
@@ -289,9 +291,6 @@ export default function Calculator() {
                                 <div className="flex justify-center">
                                     <div className="result-card bg-white w-full md:w-2/6 p-6 rounded-xl shadow-md">
                                         <div className="text-center">
-                                            <p className="text-gray-600 mb-2">
-                                                Potential Monthly Payment
-                                            </p>
                                             {monthlyPayment !== null ? (
                                                 <h3 className="text-5xl font-bold text-blue-600 mb-4">
                                                     {monthlyPayment}
@@ -308,8 +307,8 @@ export default function Calculator() {
                             </>
                         )}
 
-                        <div className="mt-12 text-center">
-                            <div className="bg-blue-50 p-6 rounded-xl inline-block max-w-2xl">
+                        <div className="mt-12 text-center flex justify-center">
+                            <div className="bg-blue-50 p-6 rounded-xl flex flex-col max-w-2xl">
                                 <h3 className="text-xl font-bold mb-4">
                                     Give us a Call we can help.{" "}
                                     <a
@@ -319,14 +318,16 @@ export default function Calculator() {
                                         210-813-3200
                                     </a>
                                 </h3>
-                                <a
+                                <Link
+                                    className="mt-4"
                                     href="https://myedusolutions.com/advisor/"
-                                    className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-sm transition"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    Schedule a Free Consultation
-                                </a>
+                                    <CTAButton className="border-yellow-400 hover:bg-white bg-yellow-500 text-blue-900">
+                                        Schedule a Free Consultation
+                                    </CTAButton>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -353,13 +354,13 @@ export default function Calculator() {
                             },
                             {
                                 iconClass: <FaDollarSign />,
-                                title: "MES Costs Pennies, Compared to Every Dollar Saved",
+                                title: "FCA Costs Pennies, Compared to Every Dollar Saved",
                                 description:
                                     "Our services pay for themselves with the savings we find for you.",
                             },
                             {
                                 iconClass: <FaStar />,
-                                title: "99% MES Clients Renew Annually",
+                                title: "99% FCA Clients Renew Annually",
                                 description:
                                     "Our clients stay with us because we deliver real results.",
                             },
