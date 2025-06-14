@@ -51,10 +51,7 @@ const Nav = ({ className = "", ...props }) => {
                         </Link>
                     </NavLinkDropDown>
 
-                    <NavLink
-                        href="https://myedusolutions.com/calculator/"
-                        active={false}
-                    >
+                    <NavLink href={route("calculator")} active={false}>
                         Estimate Payments
                     </NavLink>
                     <NavLink

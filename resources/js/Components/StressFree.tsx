@@ -15,18 +15,23 @@ import CTAButton from "./CTAButton";
 
 function StressFree() {
     return (
-        <section className="py-32 bg-gray-50">
-            <div className="container mx-auto px-4">
+        <section
+            className="py-32 relative bg-fixed bg-center bg-no-repeat bg-cover"
+            style={{
+                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0,0.7)), url('https://bodhiheart.com/wp-content/uploads/2022/06/letting-go-of-anxiety.jpeg')`,
+            }}
+        >
+            <div className="container z-40 mx-auto px-4">
                 <div className="flex flex-col md:flex-row items-center">
                     {/* Left Side */}
                     <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
-                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                        <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                             Eliminate the{" "}
                             <span className="text-blue-600">Stress</span> of
                             your Student Loans
                         </h2>
-                        <p className="text-lg text-gray-600 mb-6">
-                            My Education Solutions' goal is to help you navigate
+                        <p className="text-lg text-white mb-6">
+                            FCA National Service' goal is to help you navigate
                             the complexities of{" "}
                             <Link
                                 href="https://myedusolutions.com/how-student-loan-debt-forgiveness-programs-work/"
@@ -44,13 +49,13 @@ function StressFree() {
                                     className="hover:underline"
                                 >
                                     <FaCheckCircle className="text-blue-600 inline-block mr-2" />
-                                    100% MES Clients who have completed their
+                                    100% FCA Clients who have completed their
                                     required payments have received Student Loan
                                     Forgiveness
                                 </Link>
                             </p>
                         </div>
-                        <p className="text-lg text-gray-600">
+                        <p className="text-lg text-white">
                             We're dedicated to helping you find an effective
                             plan and achieve student loan forgiveness!
                         </p>
@@ -69,7 +74,7 @@ function StressFree() {
 
                             <StressFreeCard
                                 className="bg-yellow-500"
-                                title="MES Costs Pennies, Compared to Every Dollar
+                                title="FCA Costs Pennies, Compared to Every Dollar
                                     Saved"
                                 url="https://caportal.myedusolutions.com/public/substantiation/"
                             >
@@ -112,9 +117,11 @@ function StressFree() {
                 </div>
 
                 <div className="flex gap-4 mt-12 md:mt-24 md:flex-row flex-col justify-self-center">
-                    <CTAButton className="border-blue-400 text-white bg-blue-500 hover:bg-white hover:text-yellow-900">
-                        View your savings
-                    </CTAButton>
+                    <Link href={route("calculator")}>
+                        <CTAButton className="border-blue-400 text-white bg-blue-500 hover:bg-white hover:text-yellow-900">
+                            View your savings
+                        </CTAButton>
+                    </Link>
                     <CTAButton className="border-yellow-400 hover:bg-white bg-yellow-500 text-blue-900">
                         Speak to an advisor
                     </CTAButton>

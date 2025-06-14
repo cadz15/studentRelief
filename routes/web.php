@@ -24,6 +24,9 @@ Route::get('/', function () {
         'phpVersion' => PHP_VERSION,
     ]);
 });
+Route::get('/calculator', function () {
+    return Inertia::render('Calculator');
+})->name('calculator');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
@@ -31,6 +34,12 @@ Route::get('/dashboard', function () {
 
 Route::get('/inspo', function () {
     return view('inspo');
+});
+Route::get('/inspo2', function () {
+    return view('inspo2');
+});
+Route::get('/inspo3', function () {
+    return view('inspo3');
 });
 
 Route::middleware('auth')->group(function () {

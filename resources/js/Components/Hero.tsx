@@ -1,6 +1,7 @@
 import React from "react";
 import PrimaryButton from "./PrimaryButton";
 import CTAButton from "./CTAButton";
+import { Link } from "@inertiajs/react";
 
 function Hero() {
     return (
@@ -13,9 +14,11 @@ function Hero() {
                     Student Loan Solutions
                 </p>
                 <div className="flex gap-4 mt-6 md:flex-row flex-col">
-                    <CTAButton className="border-yellow-400 text-white  hover:bg-yellow-500 hover:text-blue-900">
-                        View your savings
-                    </CTAButton>
+                    <Link href={route("calculator")}>
+                        <CTAButton className="border-yellow-400 text-white  hover:bg-yellow-500 hover:text-blue-900">
+                            View your savings
+                        </CTAButton>
+                    </Link>
                     <CTAButton className="border-yellow-400 hover:bg-white hover:border-white bg-yellow-500 text-blue-900">
                         Speak to an advisor
                     </CTAButton>

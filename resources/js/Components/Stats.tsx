@@ -13,7 +13,7 @@ function Stats() {
                         Reduction of Our Clients' Student Loan Debt*
                     </StatCard>
                     <StatCard title="$81,797">
-                        MES Clients' average amount forgiven by the Dept. of
+                        FCA Clients' average amount forgiven by the Dept. of
                         Education*
                     </StatCard>
                     <StatCard title="$64M+">
