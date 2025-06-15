@@ -25,12 +25,12 @@ function StudentForgiveness() {
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">
                             Eliminate Your Student Loan Debt
                         </h1>
-                        <p className="text-xl md:text-2xl mb-8">
+                        <p className="text-xl md:text-2xl mb-8 text-orange-400 font-semibold">
                             SELECT AN OPTION THAT'S BEST FOR YOU.
                         </p>
                         <a
                             href="#consultation"
-                            className="bg-white text-blue-600 font-bold py-3 px-8 rounded-full hover:bg-blue-100 transition duration-300 inline-block"
+                            className="bg-white text-blue-600 font-bold py-3 px-8 hover:bg-blue-100 transition duration-300 inline-block"
                         >
                             Free Consultation
                         </a>
@@ -199,7 +199,7 @@ function StudentForgiveness() {
                             <div className="text-center">
                                 <a
                                     href="https://myedusolutions.com/programs/"
-                                    className="bg-blue-600 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-700 transition duration-300 inline-block"
+                                    className="bg-blue-600 text-white font-bold py-3 px-6 hover:bg-blue-700 transition duration-300 inline-block"
                                 >
                                     Research More
                                 </a>

@@ -66,10 +66,7 @@ const Nav = ({ className = "", ...props }) => {
                     >
                         About Us
                     </NavLink>
-                    <NavLink
-                        href="https://myedusolutions.com/faqs/"
-                        active={false}
-                    >
+                    <NavLink href={route("faq")} active={false}>
                         FAQs
                     </NavLink>
                     <NavLink
