@@ -17,6 +17,7 @@ export default function Welcome({
 }: PageProps<{ laravelVersion: string; phpVersion: string }>) {
     return (
         <Guest>
+            <Head title="Student Loan Forgiveness" />
             <Hero />
             <Stats />
             <StressFree />

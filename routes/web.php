@@ -28,6 +28,10 @@ Route::get('/calculator', function () {
     return Inertia::render('Calculator');
 })->name('calculator');
 
+Route::get('/student-loan-forgiveness', function() {
+    return Inertia::render('StudentForgiveness');
+})->name('student.loan.forgiveness');
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -40,6 +44,12 @@ Route::get('/inspo2', function () {
 });
 Route::get('/inspo3', function () {
     return view('inspo3');
+});
+Route::get('/inspo4', function () {
+    return view('inspo4');
+});
+Route::get('/inspo5', function () {
+    return view('inspo5');
 });
 
 Route::middleware('auth')->group(function () {

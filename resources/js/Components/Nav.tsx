@@ -32,7 +32,7 @@ const Nav = ({ className = "", ...props }) => {
                 <div className="hidden lg:flex items-center space-x-1">
                     <NavLinkDropDown title="Programs">
                         <Link
-                            href="https://myedusolutions.com/programs/student-loan-forgiveness/"
+                            href={route("student.loan.forgiveness")}
                             className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-yellow-500"
                         >
                             Student Loan Forgiveness

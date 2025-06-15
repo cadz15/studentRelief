@@ -1,6 +1,6 @@
 import CTAButton from "@/Components/CTAButton";
 import Guest from "@/Layouts/GuestLayout";
-import { Link } from "@inertiajs/react";
+import { Head, Link } from "@inertiajs/react";
 import React, { useState } from "react";
 import { FaHandHoldingUsd, FaSearchDollar } from "react-icons/fa";
 import {
@@ -98,6 +98,7 @@ export default function Calculator() {
 
     return (
         <Guest>
+            <Head title="Calculator" />
             {/* Hero Section */}
             <section className="bg-gradient-to-br from-blue-900 to-blue-600 text-white py-16">
                 <div className="container mx-auto px-4">

@@ -3,9 +3,9 @@ import React from "react";
 import { FaStar, FaUser } from "react-icons/fa";
 import CTAButton from "./CTAButton";
 
-function Testimonials() {
+function Testimonials({ className = "" }) {
     return (
-        <section className="py-20 bg-blue-900 text-white">
+        <section className={`py-20 bg-blue-900 text-white ${className}`}>
             <div className="container mx-auto px-4">
                 <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
                     TESTIMONIALS
