@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LeadController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -54,6 +55,7 @@ Route::middleware('guest')->group(function() {
     })->name('speak-to-an-adviser');
 
 
+    Route::post('/lead', [LeadController::class, 'store'])->name('lead.store');
 });
 
 Route::get('/dashboard', function () {

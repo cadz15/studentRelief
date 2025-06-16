@@ -22,7 +22,7 @@ export default function Welcome({
             <Stats />
             <StressFree />
             <Testimonials />
-            <CeoSection />
+            {/* <CeoSection /> */}
             <WhoAreWe />
             <Eligibility />
             <FAQ />
