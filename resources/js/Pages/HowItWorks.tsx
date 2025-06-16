@@ -27,7 +27,7 @@ function HowItWorks() {
                         </p>
                         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                             <a
-                                href="https://myedusolutions.com/advisor"
+                                href={route("speak-to-an-adviser")}
                                 className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 font-bold py-3 px-6 rounded-sm text-center transition"
                             >
                                 Speak to an Advisor
@@ -184,7 +184,7 @@ function HowItWorks() {
                             View your Savings
                         </Link>
                         <a
-                            href="https://myedusolutions.com/advisor"
+                            href={route("speak-to-an-adviser")}
                             className="bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-bold py-3 px-6 rounded-sm transition"
                         >
                             Speak to an Advisor

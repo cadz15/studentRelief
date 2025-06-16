@@ -158,7 +158,7 @@
                 <p class="text-lg mb-8">Rest assured, there's a solution to your mounting student loan debt. Let the MES advisor who specializes in student loan debt management leverage their experience to help you successfully achieve financial freedom.</p>
                 <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                     <a href="https://myedusolutions.com/more-info" class="bg-white text-blue-900 hover:bg-gray-100 font-bold py-3 px-6 rounded-md text-center transition">Request More Info</a>
-                    <a href="https://myedusolutions.com/advisor" class="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 font-bold py-3 px-6 rounded-md text-center transition">Speak to an Advisor</a>
+                    <a href={route('speak-to-an-adviser')} class="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 font-bold py-3 px-6 rounded-md text-center transition">Speak to an Advisor</a>
                 </div>
             </div>
             <div class="md:w-1/2 flex justify-center">
@@ -293,7 +293,7 @@
             
             <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
                 <a href="https://myedusolutions.com/calculator" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-md transition">View your Savings</a>
-                <a href="https://myedusolutions.com/advisor" class="bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-bold py-3 px-6 rounded-md transition">Speak to an Advisor</a>
+                <a href={route('speak-to-an-adviser')} class="bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-bold py-3 px-6 rounded-md transition">Speak to an Advisor</a>
             </div>
         </div>
     </section>

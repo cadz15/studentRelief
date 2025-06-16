@@ -577,7 +577,7 @@
                         <p class="text-red-700 font-medium">Find your best option</p>
                         <p class="text-gray-700 text-sm mt-1">Refinancing will disqualify you from future Government Forgiveness of your debt which can eliminate outstanding principal and interest. Why pay more?</p>
                     </div>
-                    <a href="https://myedusolutions.com/advisor" class="inline-block mt-4 px-4 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300">Speak to an Advisor</a>
+                    <a href={route('speak-to-an-adviser')} class="inline-block mt-4 px-4 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300">Speak to an Advisor</a>
                 </div>
             </div>
         </div>
