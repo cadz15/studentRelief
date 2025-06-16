@@ -44,15 +44,10 @@ function StressFree() {
                         </p>
                         <div className="bg-blue-100 border-l-4 border-blue-500 p-4 mb-6">
                             <p className="text-blue-800 font-medium">
-                                <Link
-                                    href="https://caportal.myedusolutions.com/public/substantiation"
-                                    className="hover:underline"
-                                >
-                                    <FaCheckCircle className="text-blue-600 inline-block mr-2" />
-                                    100% FCA Clients who have completed their
-                                    required payments have received Student Loan
-                                    Forgiveness
-                                </Link>
+                                <FaCheckCircle className="text-blue-600 inline-block mr-2" />
+                                100% FCA Clients who have completed their
+                                required payments have received Student Loan
+                                Forgiveness
                             </p>
                         </div>
                         <p className="text-lg text-white">

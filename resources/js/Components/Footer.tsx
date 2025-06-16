@@ -1,3 +1,4 @@
+import { Link } from "@inertiajs/react";
 import React from "react";
 
 function Footer() {
@@ -69,12 +70,12 @@ function Footer() {
                         <h3 className="text-lg font-bold mb-4">Useful Links</h3>
                         <ul className="space-y-2">
                             <li>
-                                <a
-                                    href="https://myedusolutions.com/how-student-loan-debt-forgiveness-programs-work/"
+                                <Link
+                                    href={route("howitworks")}
                                     className="text-gray-400 hover:text-white transition duration-300"
                                 >
                                     How It Works
-                                </a>
+                                </Link>
                             </li>
                             <li>
                                 <a
@@ -90,30 +91,6 @@ function Footer() {
                                     className="text-gray-400 hover:text-white transition duration-300"
                                 >
                                     Client Reviews
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://caportal.myedusolutions.com/public/substantiation/clientresults.php"
-                                    className="text-gray-400 hover:text-white transition duration-300"
-                                >
-                                    Client Results
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://myedusolutions.com/contact-us/"
-                                    className="text-gray-400 hover:text-white transition duration-300"
-                                >
-                                    Contact Us
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://myedusolutions.com/careers/"
-                                    className="text-gray-400 hover:text-white transition duration-300"
-                                >
-                                    Careers
                                 </a>
                             </li>
                         </ul>
@@ -132,7 +109,7 @@ function Footer() {
                             </li>
                             <li>
                                 <a
-                                    href="https://myedusolutions.com/programs/disability-discharge/"
+                                    href={route("disability-discharge")}
                                     className="text-gray-400 hover:text-white transition duration-300"
                                 >
                                     Disability Discharge
@@ -140,34 +117,10 @@ function Footer() {
                             </li>
                             <li>
                                 <a
-                                    href="https://myedusolutions.com/programs/borrower-defense-program/"
+                                    href={route("borrower-defense-program")}
                                     className="text-gray-400 hover:text-white transition duration-300"
                                 >
                                     Borrower Defense Program
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://myedusolutions.com/referral-program/"
-                                    className="text-gray-400 hover:text-white transition duration-300"
-                                >
-                                    Referral Program
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://myedusolutions.com/employee-assistance-program-benefit/"
-                                    className="text-gray-400 hover:text-white transition duration-300"
-                                >
-                                    Employee Program
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://myedusolutions.com/fundraising-opportunities/"
-                                    className="text-gray-400 hover:text-white transition duration-300"
-                                >
-                                    Fundraising Program
                                 </a>
                             </li>
                             <li>
@@ -190,8 +143,8 @@ function Footer() {
                             calculator to see your potential savings.
                         </p>
                         <a
-                            href="https://myedusolutions.com/calculator"
-                            className="inline-block px-4 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300 mb-6"
+                            href={route("calculator")}
+                            className="inline-block px-4 py-2 bg-blue-600 text-white font-medium rounded-sm hover:bg-blue-700 transition duration-300 mb-6"
                         >
                             View Your Savings
                         </a>
@@ -240,24 +193,6 @@ function Footer() {
                                 className="text-gray-400 hover:text-white transition duration-300 text-sm"
                             >
                                 Terms & Conditions
-                            </a>
-                            <a
-                                href="https://myedusolutions.com/privacy-policy/"
-                                className="text-gray-400 hover:text-white transition duration-300 text-sm"
-                            >
-                                Privacy Policy
-                            </a>
-                            <a
-                                href="https://myedusolutions.com/sitemap_index.xml/"
-                                className="text-gray-400 hover:text-white transition duration-300 text-sm"
-                            >
-                                Sitemap
-                            </a>
-                            <a
-                                href="https://myedusolutions.com/accessibility/"
-                                className="text-gray-400 hover:text-white transition duration-300 text-sm"
-                            >
-                                Accessibility
                             </a>
                         </div>
                     </div>

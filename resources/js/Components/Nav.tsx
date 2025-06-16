@@ -38,13 +38,13 @@ const Nav = ({ className = "", ...props }) => {
                             Student Loan Forgiveness
                         </Link>
                         <Link
-                            href="https://myedusolutions.com/programs/disability-discharge/"
+                            href={route("disability-discharge")}
                             className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-yellow-500"
                         >
                             Disability Discharge
                         </Link>
                         <Link
-                            href="https://myedusolutions.com/programs/borrower-defense-program/"
+                            href={route("borrower-defense-program")}
                             className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-yellow-500"
                         >
                             Borrower Defense Program
@@ -68,12 +68,6 @@ const Nav = ({ className = "", ...props }) => {
                     </NavLink>
                     <NavLink href={route("faq")} active={false}>
                         FAQs
-                    </NavLink>
-                    <NavLink
-                        href="https://myedusolutions.com/contact-us/"
-                        active={false}
-                    >
-                        Contact Us
                     </NavLink>
 
                     <Link

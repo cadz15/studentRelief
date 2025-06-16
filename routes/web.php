@@ -36,6 +36,18 @@ Route::get('/frequently-asked-questions', function() {
     return Inertia::render('FAQPage');
 })->name('faq');
 
+Route::get('/how-it-works', function() {
+    return Inertia::render('HowItWorks');
+})->name('howitworks');
+
+Route::get('/disability-discharge', function() {
+    return Inertia::render('DisabilityDischarge');
+})->name('disability-discharge');
+
+Route::get('/borrower-defense-program', function() {
+    return Inertia::render('BorrowerDefence');
+})->name('borrower-defense-program');
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

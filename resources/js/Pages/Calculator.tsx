@@ -411,7 +411,7 @@ export default function Calculator() {
                         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
                             {[
                                 {
-                                    href: "https://myedusolutions.com/how-student-loan-debt-forgiveness-programs-work",
+                                    href: route("howitworks"),
                                     label: "What's The Process",
                                 },
                                 {
@@ -419,7 +419,7 @@ export default function Calculator() {
                                     label: "See Clients' Results",
                                 },
                                 {
-                                    href: "https://myedusolutions.com/programs/",
+                                    href: "/",
                                     label: "See My Options",
                                 },
                                 {

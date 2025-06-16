@@ -40,8 +40,8 @@ function Eligibility() {
                                 </p>
                             </div>
                             <a
-                                href="https://myedusolutions.com/programs/student-loan-forgiveness/"
-                                className="inline-block bg-white text-blue-900 hover:bg-gray-100 px-4 py-2 rounded-md font-medium transition-all"
+                                href={route("student.loan.forgiveness")}
+                                className="inline-block bg-white text-blue-900 hover:bg-gray-100 px-4 py-2 rounded-sm font-medium transition-all"
                             >
                                 Ask us how
                             </a>
@@ -63,8 +63,8 @@ function Eligibility() {
                                 <p>Jumpstart Forgiveness 6 months early.</p>
                             </div>
                             <a
-                                href="https://myedusolutions.com/programs/student-loan-forgiveness/"
-                                className="inline-block bg-white text-blue-900 hover:bg-gray-100 px-4 py-2 rounded-md font-medium transition-all"
+                                href={route("student.loan.forgiveness")}
+                                className="inline-block bg-white text-blue-900 hover:bg-gray-100 px-4 py-2 rounded-sm font-medium transition-all"
                             >
                                 Learn More
                             </a>
@@ -89,8 +89,8 @@ function Eligibility() {
                                 </p>
                             </div>
                             <a
-                                href="https://myedusolutions.com/programs/student-loan-forgiveness/"
-                                className="inline-block bg-white text-blue-900 hover:bg-gray-100 px-4 py-2 rounded-md font-medium transition-all"
+                                href={route("student.loan.forgiveness")}
+                                className="inline-block bg-white text-blue-900 hover:bg-gray-100 px-4 py-2 rounded-sm font-medium transition-all"
                             >
                                 Ask us how
                             </a>
@@ -136,8 +136,8 @@ function Eligibility() {
                                 </p>
                             </div>
                             <Link
-                                href="https://myedusolutions.com/how-student-loan-debt-forgiveness-programs-work/"
-                                className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-medium transition-all"
+                                href={route("howitworks")}
+                                className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-sm font-medium transition-all"
                             >
                                 Discover More
                             </Link>
@@ -161,7 +161,7 @@ function Eligibility() {
                             </div>
                             <Link
                                 href="https://myedusolutions.com/reviews/"
-                                className="inline-block w-fit justify-self-end bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-medium transition-all"
+                                className="inline-block w-fit justify-self-end bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-sm font-medium transition-all"
                             >
                                 Watch Videos
                             </Link>
@@ -191,7 +191,7 @@ function Eligibility() {
                             </div>
                             <Link
                                 href="https://myedusolutions.com/advisor"
-                                className="inline-block w-fit justify-self-end bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-medium transition-all"
+                                className="inline-block w-fit justify-self-end bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-sm font-medium transition-all"
                             >
                                 Speak to an Advisor
                             </Link>

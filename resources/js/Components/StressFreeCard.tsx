@@ -16,10 +16,6 @@ function StressFreeCard({
                 {children}
             </div>
             <h3 className="text-xl mt-4 font-semibold mb-3">{title}</h3>
-            <Link href={url} className="text-blue-600 hover:underline">
-                <FaCheckCircle className="inline-block mr-2" />
-                Learn More
-            </Link>
         </div>
     );
 }
