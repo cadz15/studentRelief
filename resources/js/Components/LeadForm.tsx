@@ -252,6 +252,21 @@ function LeadForm({ title = "" }) {
                             </p>
                         )}
                     </div>
+                    <div className="mb-6">
+                        <input type="checkbox" name="" id="check" required />
+                        <label htmlFor="check" className="text-sm ml-2">
+                            By clicking “Submit”, you agree that the phone
+                            number and email address you are providing may be
+                            used to contact you by FCA National Service
+                            (including auto-dialed/auto-selected and prerecorded
+                            calls, as well as text/SMS messages). Msg. and data
+                            rates apply, and your consent to such
+                            contact/marketing is not required for purchase. We
+                            may also e-mail you and you may let us know at any
+                            time if you are no longer interested in hearing from
+                            us via a particular communication platform.
+                        </label>
+                    </div>
 
                     <div className="text-center">
                         <button
