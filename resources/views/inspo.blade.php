@@ -697,7 +697,7 @@
                         <i class="fas fa-chevron-down transform transition-transform duration-300"></i>
                     </button>
                     <div class="accordion-content mt-2 text-gray-600">
-                        <p>Yes, if your loans are in default or collections, you may still qualify to enroll in the Student Loan Forgiveness Program. Even if you have been contacted regarding wage garnishment, we may still be able to help you if take action quickly. To reach us, please call <a href="tel:2108123200" class="text-blue-600">210-812-3200</a> or email <a href="mailto:Advisors@MyEduSolutions.com" class="text-blue-600">Advisors@MyEduSolutions.com</a> today.</p>
+                        <p>Yes, if your loans are in default or collections, you may still qualify to enroll in the Student Loan Forgiveness Program. Even if you have been contacted regarding wage garnishment, we may still be able to help you if take action quickly. To reach us, please call <a href="tel:2108123200" class="text-blue-600">(407) 436-7933</a> or email <a href="mailto:Advisors@MyEduSolutions.com" class="text-blue-600">Advisors@MyEduSolutions.com</a> today.</p>
                     </div>
                 </div>
                 
@@ -837,7 +837,7 @@
                     <div class="space-y-4">
                         <div class="flex items-start">
                             <i class="fas fa-phone-alt mt-1 mr-3"></i>
-                            <a href="tel:2108123200" class="hover:text-yellow-300 transition duration-300">210-812-3200</a>
+                            <a href="tel:2108123200" class="hover:text-yellow-300 transition duration-300">(407) 436-7933</a>
                         </div>
                         <div class="flex items-start">
                             <i class="fas fa-user-lock mt-1 mr-3"></i>
@@ -845,7 +845,7 @@
                         </div>
                         <div class="flex items-start">
                             <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
-                            <a href="https://maps.app.goo.gl/T84Pba3XYtPf5wPp9" class="hover:text-yellow-300 transition duration-300">2700 Lockhill Selma San Antonio, TX 78230</a>
+                            <a href="https://maps.app.goo.gl/T84Pba3XYtPf5wPp9" class="hover:text-yellow-300 transition duration-300">3702 W Spruce St. #1211 Tampa, FL 33607 United States</a>
                         </div>
                     </div>
                 </div>

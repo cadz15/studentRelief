@@ -140,7 +140,7 @@ function Footer() {
                                     href="tel:2108123200"
                                     className="text-gray-400 hover:text-white transition duration-300"
                                 >
-                                    210-812-3200
+                                    (407) 436-7933
                                 </a>
                             </div>
                             <div className="flex items-center">
@@ -155,10 +155,11 @@ function Footer() {
                             <div className="flex items-center">
                                 <i className="fas fa-map-marker-alt text-gray-400 mr-3"></i>
                                 <a
-                                    href="https://maps.app.goo.gl/T84Pba3XYtPf5wPp9"
+                                    href="#"
                                     className="text-gray-400 hover:text-white transition duration-300"
                                 >
-                                    2700 Lockhill Selma San Antonio, TX 78230
+                                    3702 W Spruce St. #1211 Tampa, FL 33607
+                                    United States
                                 </a>
                             </div>
                         </div>
@@ -168,7 +169,7 @@ function Footer() {
                 <div className="pt-8 border-t border-gray-800">
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <div className="text-gray-400 text-sm mb-4 md:mb-0">
-                            © <span id="currentYear"></span> FCA National
+                            © <span id="currentYear">2025</span> FCA National
                             Service. All rights reserved.
                         </div>
                         <div className="flex space-x-4">

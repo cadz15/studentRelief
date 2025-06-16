@@ -33,7 +33,7 @@
     <div class="bg-blue-900 text-white text-sm py-2 px-4">
         <div class="container mx-auto flex justify-between items-center">
             <div>
-                <a href="tel:2108123200" class="hover:text-blue-200"><i class="fas fa-phone-alt mr-1"></i> 210-812-3200</a>
+                <a href="tel:2108123200" class="hover:text-blue-200"><i class="fas fa-phone-alt mr-1"></i> (407) 436-7933</a>
             </div>
             <div>
                 <a href="https://caportal.myedusolutions.com/mes90/login.php" class="hover:text-blue-200"><i class="fas fa-user-circle mr-1"></i> Portal Login</a>
@@ -560,7 +560,7 @@
                         <i class="fas fa-chevron-down ml-4 transition-transform"></i>
                     </button>
                     <div class="faq-content mt-4 hidden">
-                        <p>Yes, if your loans are in default or collections, you may still qualify to enroll in the Student Loan Forgiveness Program. Even if you have been contacted regarding wage garnishment, we may still be able to help you if take action quickly. To reach us, please call <a href="tel:2108123200" class="text-blue-600">210-812-3200</a> or email <a href="mailto:Advisors@MyEduSolutions.com" class="text-blue-600">Advisors@MyEduSolutions.com</a> today.</p>
+                        <p>Yes, if your loans are in default or collections, you may still qualify to enroll in the Student Loan Forgiveness Program. Even if you have been contacted regarding wage garnishment, we may still be able to help you if take action quickly. To reach us, please call <a href="tel:2108123200" class="text-blue-600">(407) 436-7933</a> or email <a href="mailto:Advisors@MyEduSolutions.com" class="text-blue-600">Advisors@MyEduSolutions.com</a> today.</p>
                     </div>
                 </div>
                 
@@ -702,7 +702,7 @@
                     <div class="mt-6 space-y-3">
                         <div class="flex items-center">
                             <i class="fas fa-phone-alt mr-3"></i>
-                            <a href="tel:2108123200" class="hover:text-blue-200">210-812-3200</a>
+                            <a href="tel:2108123200" class="hover:text-blue-200">(407) 436-7933</a>
                         </div>
                         <div class="flex items-center">
                             <i class="fas fa-user-circle mr-3"></i>
@@ -710,7 +710,7 @@
                         </div>
                         <div class="flex items-center">
                             <i class="fas fa-map-marker-alt mr-3"></i>
-                            <a href="https://maps.app.goo.gl/T84Pba3XYtPf5wPp9" class="hover:text-blue-200">2700 Lockhill Selma San Antonio, TX 78230</a>
+                            <a href="https://maps.app.goo.gl/T84Pba3XYtPf5wPp9" class="hover:text-blue-200">3702 W Spruce St. #1211 Tampa, FL 33607 United States</a>
                         </div>
                     </div>
                 </div>

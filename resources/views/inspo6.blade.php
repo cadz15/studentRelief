@@ -32,7 +32,7 @@
             <a href="https://caportal.myedusolutions.com/mes90/login.php" class="hover:text-blue-300 transition">Portal Login</a>
         </div>
         <div class="flex space-x-4">
-            <a href="tel:2108123200" class="hover:text-blue-300 transition"><i class="fas fa-phone mr-1"></i> 210-812-3200</a>
+            <a href="tel:2108123200" class="hover:text-blue-300 transition"><i class="fas fa-phone mr-1"></i> (407) 436-7933</a>
             <a href="tel:18006181170" class="hover:text-blue-300 transition"><i class="fas fa-phone mr-1"></i> Toll Free: 1-800-618-1170</a>
         </div>
     </div>
@@ -275,7 +275,7 @@
             
             <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 mb-8">
                 <a href="tel:2108123200" class="flex items-center text-2xl font-bold hover:text-blue-600 transition">
-                    <i class="fas fa-phone mr-3"></i> 210-812-3200
+                    <i class="fas fa-phone mr-3"></i> (407) 436-7933
                 </a>
                 <span class="hidden md:block">|</span>
                 <a href="tel:18006181170" class="flex items-center text-2xl font-bold hover:text-blue-600 transition">
@@ -426,7 +426,7 @@
                     <div class="space-y-4">
                         <div class="flex items-center">
                             <i class="fas fa-phone-alt text-blue-400 mr-3"></i>
-                            <a href="tel:2108123200" class="hover:text-blue-400 transition" title="call student loan forgiveness advisors">210-812-3200</a>
+                            <a href="tel:2108123200" class="hover:text-blue-400 transition" title="call student loan forgiveness advisors">(407) 436-7933</a>
                         </div>
                         <div class="flex items-center">
                             <i class="fas fa-user-lock text-blue-400 mr-3"></i>
@@ -434,7 +434,7 @@
                         </div>
                         <div class="flex items-center">
                             <i class="fas fa-map-marker-alt text-blue-400 mr-3"></i>
-                            <a href="https://maps.app.goo.gl/T84Pba3XYtPf5wPp9" class="hover:text-blue-400 transition" title="My Education Solutions Address">2700 Lockhill Selma San Antonio, TX 78230</a>
+                            <a href="https://maps.app.goo.gl/T84Pba3XYtPf5wPp9" class="hover:text-blue-400 transition" title="My Education Solutions Address">3702 W Spruce St. #1211 Tampa, FL 33607 United States</a>
                         </div>
                     </div>
                 </div>

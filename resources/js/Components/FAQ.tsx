@@ -18,7 +18,7 @@ const faqData: FAQItem[] = [
                 still be able to help you if you take action quickly. To reach
                 us, please call{" "}
                 <a href="tel:2108123200" className="text-blue-600">
-                    210-812-3200
+                    (407) 436-7933
                 </a>{" "}
                 or email{" "}
                 <a

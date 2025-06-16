@@ -161,7 +161,7 @@ function HowItWorks() {
                             href="tel:2108123200"
                             className="flex items-center text-2xl font-bold hover:text-blue-600 transition"
                         >
-                            <i className="fas fa-phone mr-3"></i> 210-812-3200
+                            <i className="fas fa-phone mr-3"></i> (407) 436-7933
                         </a>
                     </div>
 
