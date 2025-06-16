@@ -137,7 +137,7 @@ function Footer() {
                             <div className="flex items-center">
                                 <i className="fas fa-phone-alt text-gray-400 mr-3"></i>
                                 <a
-                                    href="tel:2108123200"
+                                    href="tel:4074367933"
                                     className="text-gray-400 hover:text-white transition duration-300"
                                 >
                                     (407) 436-7933
