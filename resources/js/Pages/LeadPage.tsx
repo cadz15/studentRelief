@@ -39,7 +39,7 @@ function LeadPage() {
                                 <span className="checkmark">
                                     <FaCheckCircle className="text-green-500 mr-4" />
                                 </span>
-                                <span>Over $3.2B forgiven for our clients</span>
+                                <span>Over $64M forgiven for our clients</span>
                             </div>
                         </div>
                     </div>
