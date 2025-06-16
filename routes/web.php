@@ -50,7 +50,7 @@ Route::middleware('guest')->group(function() {
         return Inertia::render('Reviews');
     })->name('client-reviews');
     
-    Route::get('/speak-to-an-adviser', function() {
+    Route::get('/speak-to-an-advisor', function() {
         return Inertia::render('LeadPage');
     })->name('speak-to-an-adviser');
 
