@@ -41,14 +41,8 @@ function StudentForgiveness() {
             <section className="bg-green-600 text-white py-4">
                 <div className="lg:container mx-auto px-4 text-center">
                     <p className="font-bold">
-                        <a
-                            href="https://caportal.myedusolutions.com/public/substantiation/"
-                            className="underline hover:text-green-200"
-                        >
-                            100% of FCA Clients have received Student Loan
-                            Forgiveness after completing their required
-                            payments.*
-                        </a>
+                        100% of FCA Clients have received Student Loan
+                        Forgiveness after completing their required payments.*
                     </p>
                 </div>
             </section>
@@ -65,19 +59,13 @@ function StudentForgiveness() {
                             <div className="flex flex-col md:flex-row items-center">
                                 <div className="md:w-2/3 mb-6 md:mb-0 md:pr-8">
                                     <p className="mb-4">
-                                        Our{" "}
-                                        <a
-                                            href="https://myedusolutions.com/about-us/"
-                                            className="text-blue-600 font-semibold hover:underline"
-                                        >
-                                            Professional Student Loan Advisors
-                                        </a>{" "}
+                                        Our Professional Student Loan Advisors
                                         navigate the complexity of the Federal
                                         Student Loan Forgiveness programs on
                                         your behalf with a proven success rate.
                                         Over the past nine years, FCA has{" "}
                                         <a
-                                            href="https://myedusolutions.com/reviews/"
+                                            href={route("client-reviews")}
                                             className="text-blue-600 font-semibold hover:underline"
                                         >
                                             helped hundreds of Clients
@@ -196,14 +184,6 @@ function StudentForgiveness() {
                                 We'll help you understand your student loan debt
                                 repayment options and help you manage it easily.
                             </p>
-                            <div className="text-center">
-                                <a
-                                    href="https://myedusolutions.com/programs/"
-                                    className="bg-blue-600 text-white font-bold py-3 px-6 hover:bg-blue-700 transition duration-300 inline-block"
-                                >
-                                    Research More
-                                </a>
-                            </div>
                         </div>
 
                         <div className="mb-16">
@@ -425,7 +405,7 @@ function StudentForgiveness() {
                 className="bg-gradient-to-br from-blue-900 to-blue-600 text-white py-12 md:py-16"
             >
                 <div className="container mx-auto px-4">
-                    <LeadForm />
+                    <LeadForm title="Free Student Loan Consultation" />
                 </div>
             </section>
         </Guest>

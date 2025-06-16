@@ -78,15 +78,8 @@ function HowItWorks() {
                                 </h3>
                             </div>
                             <p className="text-gray-600">
-                                The Department of Education approves{" "}
-                                <a
-                                    href="https://caportal.myedusolutions.com/public/substantiation/"
-                                    className="text-blue-600 hover:underline"
-                                >
-                                    99% of the applications that we submit for
-                                    enrollment
-                                </a>
-                                .*
+                                The Department of Education approves 99% of the
+                                applications that we submit for enrollment .*
                             </p>
                         </div>
 
@@ -179,13 +172,8 @@ function HowItWorks() {
                     </div>
 
                     <p className="mb-8">
-                        <a
-                            href="https://caportal.myedusolutions.com/public/substantiation/clientresults.php"
-                            className="text-blue-600 hover:underline"
-                        >
-                            To see the results of other successful FCA Clients
-                            that have received Forgiveness click here.
-                        </a>
+                        To see the results of other successful FCA Clients that
+                        have received Forgiveness click here.
                     </p>
 
                     <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
@@ -222,14 +210,8 @@ function HowItWorks() {
                     </p>
 
                     <p className="text-center text-lg mb-12">
-                        <a
-                            href="https://caportal.myedusolutions.com/public/substantiation/"
-                            className="text-yellow-400 hover:underline"
-                        >
-                            100% of FCA Clients have received Student Loan
-                            Forgiveness after completing their required
-                            payments.*
-                        </a>
+                        100% of FCA Clients have received Student Loan
+                        Forgiveness after completing their required payments.*
                     </p>
 
                     <div className="flex justify-center space-x-4 mb-12">
@@ -239,12 +221,6 @@ function HowItWorks() {
                         >
                             View Your Savings
                         </Link>
-                        <a
-                            href="https://myedusolutions.com/about-us"
-                            className="bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-bold py-3 px-6 rounded-sm transition"
-                        >
-                            Who we are
-                        </a>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

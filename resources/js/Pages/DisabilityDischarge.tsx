@@ -17,7 +17,7 @@ function DisabilityDischarge() {
                             You have options
                         </p>
                         <Link
-                            href="#consultation"
+                            href={route("speak-to-an-adviser")}
                             className="bg-white text-blue-600 font-bold py-3 px-8 hover:bg-blue-100 transition duration-300 inline-block"
                         >
                             Speak to advisor

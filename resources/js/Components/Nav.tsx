@@ -54,24 +54,21 @@ const Nav = ({ className = "", ...props }) => {
                     <NavLink href={route("calculator")} active={false}>
                         Estimate Payments
                     </NavLink>
-                    <NavLink
-                        href="https://myedusolutions.com/reviews/"
-                        active={false}
-                    >
+                    <NavLink href={route("client-reviews")} active={false}>
                         Reviews
                     </NavLink>
-                    <NavLink
+                    {/* <NavLink
                         href="https://myedusolutions.com/about-us/"
                         active={false}
                     >
                         About Us
-                    </NavLink>
+                    </NavLink> */}
                     <NavLink href={route("faq")} active={false}>
                         FAQs
                     </NavLink>
 
                     <Link
-                        href="https://myedusolutions.com/advisor/"
+                        href={route("speak-to-an-adviser")}
                         className="ml-2 bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold px-6 py-2 rounded-sm transition duration-300"
                     >
                         Speak to an Advisor
@@ -112,55 +109,40 @@ const Nav = ({ className = "", ...props }) => {
                         Home
                     </Link>
                     <Link
-                        href="https://myedusolutions.com/programs/student-loan-forgiveness/"
+                        href={route("student.loan.forgiveness")}
                         onClick={closeMenu}
                     >
                         Student Loan Forgiveness
                     </Link>
                     <Link
-                        href="https://myedusolutions.com/programs/disability-discharge/"
+                        href={route("disability-discharge")}
                         onClick={closeMenu}
                     >
                         Disability Discharge
                     </Link>
                     <Link
-                        href="https://myedusolutions.com/programs/borrower-defense-program/"
+                        href={route("borrower-defense-program")}
                         onClick={closeMenu}
                     >
                         Borrower Defense Program
                     </Link>
-                    <Link
-                        href="https://myedusolutions.com/calculator/"
-                        onClick={closeMenu}
-                    >
+                    <Link href={route("calculator")} onClick={closeMenu}>
                         Estimate Payments
                     </Link>
-                    <Link
-                        href="https://myedusolutions.com/reviews/"
-                        onClick={closeMenu}
-                    >
+                    <Link href={route("client-reviews")} onClick={closeMenu}>
                         Reviews
                     </Link>
-                    <Link
+                    {/* <Link
                         href="https://myedusolutions.com/about-us/"
                         onClick={closeMenu}
                     >
                         About Us
-                    </Link>
-                    <Link
-                        href="https://myedusolutions.com/faqs/"
-                        onClick={closeMenu}
-                    >
+                    </Link> */}
+                    <Link href={route("faq")} onClick={closeMenu}>
                         FAQs
                     </Link>
                     <Link
-                        href="https://myedusolutions.com/contact-us/"
-                        onClick={closeMenu}
-                    >
-                        Contact Us
-                    </Link>
-                    <Link
-                        href="https://myedusolutions.com/advisor/"
+                        href={route("speak-to-an-adviser")}
                         className="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold px-4 py-2 rounded-sm transition duration-300 text-center"
                         onClick={closeMenu}
                     >

@@ -103,9 +103,11 @@ function Eligibility() {
                                 View your savings
                             </CTAButton>
                         </Link>
-                        <CTAButton className="border-yellow-400 hover:bg-white bg-yellow-500 text-blue-900">
-                            Speak to an advisor
-                        </CTAButton>
+                        <Link href={route("speak-to-an-adviser")}>
+                            <CTAButton className="border-yellow-400 hover:bg-white bg-yellow-500 text-blue-900">
+                                Speak to an advisor
+                            </CTAButton>
+                        </Link>
                     </div>
                 </div>
             </section>
@@ -160,7 +162,7 @@ function Eligibility() {
                                 </p>
                             </div>
                             <Link
-                                href="https://myedusolutions.com/reviews/"
+                                href={route("client-reviews")}
                                 className="inline-block w-fit justify-self-end bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-sm font-medium transition-all"
                             >
                                 Watch Videos
@@ -190,7 +192,7 @@ function Eligibility() {
                                 </p>
                             </div>
                             <Link
-                                href="https://myedusolutions.com/advisor"
+                                href={route("speak-to-an-adviser")}
                                 className="inline-block w-fit justify-self-end bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-sm font-medium transition-all"
                             >
                                 Speak to an Advisor

@@ -73,7 +73,7 @@
                         Client Success <i class="fas fa-chevron-down ml-1 text-xs"></i>
                     </button>
                     <div class="dropdown-menu absolute hidden bg-white shadow-lg rounded-md mt-2 py-2 w-48 z-50">
-                        <a href="https://myedusolutions.com/reviews/" class="block px-4 py-2 hover:bg-blue-50">Client Reviews</a>
+                        <a href={route('client-reviews')} class="block px-4 py-2 hover:bg-blue-50">Client Reviews</a>
                         <a href="https://caportal.myedusolutions.com/public/substantiation/clientresults.php" class="block px-4 py-2 hover:bg-blue-50">Client Results</a>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                         Client Success <i class="fas fa-chevron-down ml-1 text-xs"></i>
                     </button>
                     <div class="dropdown-content hidden pl-4 mt-2 space-y-2">
-                        <a href="https://myedusolutions.com/reviews/" class="block">Client Reviews</a>
+                        <a href={route('client-reviews')} class="block">Client Reviews</a>
                         <a href="https://caportal.myedusolutions.com/public/substantiation/clientresults.php" class="block">Client Results</a>
                     </div>
                 </div>
@@ -396,7 +396,7 @@
                     <ul class="space-y-2">
                         <li><a href="https://myedusolutions.com/how-student-loan-debt-forgiveness-programs-work/" class="hover:text-blue-400 transition" title="How does student loan debt work">How It Works</a></li>
                         <li><a href="https://myedusolutions.com/about-us/" class="hover:text-blue-400 transition" title="About My Education Solutions">About Us</a></li>
-                        <li><a href="https://myedusolutions.com/reviews/" class="hover:text-blue-400 transition" title="My education solutions reviews">Client Reviews</a></li>
+                        <li><a href={route('client-reviews')} class="hover:text-blue-400 transition" title="My education solutions reviews">Client Reviews</a></li>
                         <li><a href="https://caportal.myedusolutions.com/public/substantiation/clientresults.php" class="hover:text-blue-400 transition" title="client actual results">Client Results</a></li>
                         <li><a href="https://myedusolutions.com/contact-us/" class="hover:text-blue-400 transition" title="free advising for student loans">Contact Us</a></li>
                         <li><a href="https://myedusolutions.com/careers/" class="hover:text-blue-400 transition" title="careers at MES">Careers</a></li>

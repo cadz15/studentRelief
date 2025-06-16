@@ -19,7 +19,7 @@ interface FormErrors {
     enrolled: string;
 }
 
-function LeadForm() {
+function LeadForm({ title = "" }) {
     // State for form data and errors
     const [formData, setFormData] = useState<FormData>({
         firstName: "",
@@ -127,7 +127,7 @@ function LeadForm() {
     return (
         <div className="mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-                Free Student Loan Consultation
+                {title}
             </h2>
 
             <form

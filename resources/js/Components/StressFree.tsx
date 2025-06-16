@@ -34,7 +34,7 @@ function StressFree() {
                             FCA National Service' goal is to help you navigate
                             the complexities of{" "}
                             <Link
-                                href="https://myedusolutions.com/how-student-loan-debt-forgiveness-programs-work/"
+                                href={route("student.loan.forgiveness")}
                                 className="text-blue-600 hover:underline"
                             >
                                 student loan management
@@ -62,7 +62,7 @@ function StressFree() {
                             <StressFreeCard
                                 className="bg-blue-500"
                                 title="We Can Help Reduce Monthly Payments"
-                                url="https://caportal.myedusolutions.com/public/substantiation/"
+                                url="#"
                             >
                                 <FaHandHoldingUsd className=" text-3xl" />
                             </StressFreeCard>
@@ -71,7 +71,7 @@ function StressFree() {
                                 className="bg-yellow-500"
                                 title="FCA Costs Pennies, Compared to Every Dollar
                                     Saved"
-                                url="https://caportal.myedusolutions.com/public/substantiation/"
+                                url="#"
                             >
                                 <FaCoins className=" text-3xl" />
                             </StressFreeCard>
@@ -79,7 +79,7 @@ function StressFree() {
                             <StressFreeCard
                                 className="bg-green-500"
                                 title="99% MES Clients Renew Annually"
-                                url="https://caportal.myedusolutions.com/public/substantiation/"
+                                url="#"
                             >
                                 <FaSyncAlt className=" text-3xl" />
                             </StressFreeCard>
@@ -87,7 +87,7 @@ function StressFree() {
                             <StressFreeCard
                                 className="bg-purple-500"
                                 title="We Fully Manage Your Forgiveness Program"
-                                url="https://caportal.myedusolutions.com/public/substantiation/"
+                                url="#"
                             >
                                 <FaTasks className=" text-3xl" />
                             </StressFreeCard>
@@ -95,7 +95,7 @@ function StressFree() {
                             <StressFreeCard
                                 className="bg-red-500"
                                 title="Pay $0 to Find Out If You're Eligible"
-                                url="https://caportal.myedusolutions.com/public/substantiation/"
+                                url="#"
                             >
                                 <FaSearchDollar className=" text-3xl" />
                             </StressFreeCard>
@@ -103,7 +103,7 @@ function StressFree() {
                             <StressFreeCard
                                 className="bg-indigo-500"
                                 title="All Income Levels and Credit Accepted"
-                                url="https://caportal.myedusolutions.com/public/substantiation/"
+                                url="#"
                             >
                                 <FaUniversalAccess className=" text-3xl" />
                             </StressFreeCard>
@@ -117,9 +117,11 @@ function StressFree() {
                             View your savings
                         </CTAButton>
                     </Link>
-                    <CTAButton className="border-yellow-400 hover:bg-white bg-yellow-500 text-blue-900">
-                        Speak to an advisor
-                    </CTAButton>
+                    <Link href={route("speak-to-an-adviser")}>
+                        <CTAButton className="border-yellow-400 hover:bg-white bg-yellow-500 text-blue-900">
+                            Speak to an advisor
+                        </CTAButton>
+                    </Link>
                 </div>
             </div>
         </section>

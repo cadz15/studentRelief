@@ -50,13 +50,7 @@ const faqData: FAQItem[] = [
                 <p>
                     FCA National Service has successfully helped thousands of
                     individuals navigate the complexities of student loan debt
-                    repayment and{" "}
-                    <a
-                        href="https://caportal.myedusolutions.com/public/substantiation/clientresults.php"
-                        className="text-blue-600"
-                    >
-                        hundreds have received complete forgiveness
-                    </a>{" "}
+                    repayment and hundreds have received complete forgiveness
                     from the government.
                 </p>
                 <p className="mt-2">
@@ -124,30 +118,6 @@ const faqData: FAQItem[] = [
                     renewals and compliance are administered.
                 </p>
             </>
-        ),
-    },
-    {
-        question:
-            "Can I still enroll in the Forgiveness program if I am currently in default?",
-        answer: (
-            <p>
-                Yes, if your loans are in default or collections, you may still
-                qualify to enroll in the Student Loan Forgiveness Program. Even
-                if you have been contacted regarding wage garnishment, we may
-                still be able to help you if you take action quickly. To reach
-                us, please call{" "}
-                <a href="tel:2108123200" className="text-blue-600">
-                    210-812-3200
-                </a>{" "}
-                or email{" "}
-                <a
-                    href="mailto:Advisors@MyEduSolutions.com"
-                    className="text-blue-600"
-                >
-                    Advisors@MyEduSolutions.com
-                </a>{" "}
-                today.
-            </p>
         ),
     },
     {

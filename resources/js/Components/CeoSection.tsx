@@ -45,21 +45,15 @@ function CeoSection() {
                             <div className="text-4xl font-bold text-green-600 mb-1">
                                 $64,128,750 Saved*
                             </div>
-                            <a
-                                href="https://caportal.myedusolutions.com/public/substantiation/clientresults.php"
-                                className="text-blue-600 hover:underline"
-                            >
-                                See Clients' Results
-                            </a>
                         </div>
 
-                        <div>
+                        {/* <div>
                             <Link href="https://myedusolutions.com/about-us/">
                                 <CTAButton className="border-blue-400 text-white bg-blue-500 hover:bg-blue-700 hover:text-white">
                                     More About Us
                                 </CTAButton>
                             </Link>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

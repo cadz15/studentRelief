@@ -92,7 +92,7 @@
                         Client Success <i class="fas fa-chevron-down ml-2 text-xs"></i>
                     </button>
                     <div class="dropdown-menu absolute hidden mt-2 w-48 bg-white rounded-md shadow-lg z-50">
-                        <a href="https://myedusolutions.com/reviews/" class="block px-4 py-2 text-gray-800 hover:bg-blue-50">Client Reviews</a>
+                        <a href={route('client-reviews')} class="block px-4 py-2 text-gray-800 hover:bg-blue-50">Client Reviews</a>
                         <a href="https://caportal.myedusolutions.com/public/substantiation/clientresults.php" class="block px-4 py-2 text-gray-800 hover:bg-blue-50">Client Results</a>
                     </div>
                 </div>
@@ -148,7 +148,7 @@
                         Client Success <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="hidden bg-blue-800 rounded-md mt-1 py-1" id="mobile-success">
-                        <a href="https://myedusolutions.com/reviews/" class="block px-4 py-2 text-white">Client Reviews</a>
+                        <a href={route('client-reviews')} class="block px-4 py-2 text-white">Client Reviews</a>
                         <a href="https://caportal.myedusolutions.com/public/substantiation/clientresults.php" class="block px-4 py-2 text-white">Client Results</a>
                     </div>
                 </div>
@@ -397,7 +397,7 @@
             </div>
             
             <div class="text-center">
-                <a href="https://myedusolutions.com/reviews/" class="inline-block bg-white hover:bg-gray-100 text-blue-900 font-bold px-8 py-3 rounded-lg transition duration-300">
+                <a href={route('client-reviews')} class="inline-block bg-white hover:bg-gray-100 text-blue-900 font-bold px-8 py-3 rounded-lg transition duration-300">
                     See Client Testimonials
                 </a>
             </div>
@@ -634,7 +634,7 @@
                     <p class="text-gray-600 mb-4">
                         Trusted by hundreds. Learn how MES can help you work toward total Student Loan Forgiveness.
                     </p>
-                    <a href="https://myedusolutions.com/reviews/" class="text-blue-600 hover:underline font-medium">
+                    <a href={route('client-reviews')} class="text-blue-600 hover:underline font-medium">
                         Watch Videos
                     </a>
                 </div>
@@ -807,7 +807,7 @@
                     <ul class="space-y-2">
                         <li><a href="https://myedusolutions.com/how-student-loan-debt-forgiveness-programs-work/" class="hover:text-yellow-300 transition duration-300">How It Works</a></li>
                         <li><a href="https://myedusolutions.com/about-us/" class="hover:text-yellow-300 transition duration-300">About Us</a></li>
-                        <li><a href="https://myedusolutions.com/reviews/" class="hover:text-yellow-300 transition duration-300">Client Reviews</a></li>
+                        <li><a href={route('client-reviews')} class="hover:text-yellow-300 transition duration-300">Client Reviews</a></li>
                         <li><a href="https://caportal.myedusolutions.com/public/substantiation/clientresults.php" class="hover:text-yellow-300 transition duration-300">Client Results</a></li>
                         <li><a href="https://myedusolutions.com/contact-us/" class="hover:text-yellow-300 transition duration-300">Contact Us</a></li>
                         <li><a href="https://myedusolutions.com/careers/" class="hover:text-yellow-300 transition duration-300">Careers</a></li>

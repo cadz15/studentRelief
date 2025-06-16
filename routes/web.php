@@ -16,65 +16,54 @@ use Inertia\Inertia;
 |
 */
 
-Route::get('/', function () {
-    return Inertia::render('Welcome', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
-    ]);
+Route::middleware('guest')->group(function() {
+
+    Route::get('/', function () {
+        return Inertia::render('Welcome');
+    });
+    Route::get('/calculator', function () {
+        return Inertia::render('Calculator');
+    })->name('calculator');
+    
+    Route::get('/student-loan-forgiveness', function() {
+        return Inertia::render('StudentForgiveness');
+    })->name('student.loan.forgiveness');
+    
+    Route::get('/frequently-asked-questions', function() {
+        return Inertia::render('FAQPage');
+    })->name('faq');
+    
+    Route::get('/how-it-works', function() {
+        return Inertia::render('HowItWorks');
+    })->name('howitworks');
+    
+    Route::get('/disability-discharge', function() {
+        return Inertia::render('DisabilityDischarge');
+    })->name('disability-discharge');
+    
+    Route::get('/borrower-defense-program', function() {
+        return Inertia::render('BorrowerDefence');
+    })->name('borrower-defense-program');
+    
+    Route::get('/client-reviews', function() {
+        return Inertia::render('Reviews');
+    })->name('client-reviews');
+    
+    Route::get('/speak-to-an-adviser', function() {
+        return Inertia::render('LeadPage');
+    })->name('speak-to-an-adviser');
+
+
 });
-Route::get('/calculator', function () {
-    return Inertia::render('Calculator');
-})->name('calculator');
-
-Route::get('/student-loan-forgiveness', function() {
-    return Inertia::render('StudentForgiveness');
-})->name('student.loan.forgiveness');
-
-Route::get('/frequently-asked-questions', function() {
-    return Inertia::render('FAQPage');
-})->name('faq');
-
-Route::get('/how-it-works', function() {
-    return Inertia::render('HowItWorks');
-})->name('howitworks');
-
-Route::get('/disability-discharge', function() {
-    return Inertia::render('DisabilityDischarge');
-})->name('disability-discharge');
-
-Route::get('/borrower-defense-program', function() {
-    return Inertia::render('BorrowerDefence');
-})->name('borrower-defense-program');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/inspo', function () {
-    return view('inspo');
-});
-Route::get('/inspo2', function () {
-    return view('inspo2');
-});
-Route::get('/inspo3', function () {
-    return view('inspo3');
-});
-Route::get('/inspo4', function () {
-    return view('inspo4');
-});
-Route::get('/inspo5', function () {
-    return view('inspo5');
-});
-Route::get('/inspo6', function () {
-    return view('inspo6');
-});
+
 
 Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    
 });
 
 require __DIR__.'/auth.php';

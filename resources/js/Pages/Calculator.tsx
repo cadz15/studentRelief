@@ -321,7 +321,7 @@ export default function Calculator() {
                                 </h3>
                                 <Link
                                     className="mt-4"
-                                    href="https://myedusolutions.com/advisor/"
+                                    href={route("speak-to-an-adviser")}
                                     target="_blank"
                                     rel="noreferrer"
                                 >
@@ -415,7 +415,7 @@ export default function Calculator() {
                                     label: "What's The Process",
                                 },
                                 {
-                                    href: "https://myedusolutions.com/reviews",
+                                    href: route("client-reviews"),
                                     label: "See Clients' Results",
                                 },
                                 {
@@ -423,7 +423,7 @@ export default function Calculator() {
                                     label: "See My Options",
                                 },
                                 {
-                                    href: "https://myedusolutions.com/advisor",
+                                    href: route("speak-to-an-adviser"),
                                     label: "Speak to an Advisor",
                                 },
                             ].map(({ href, label }) => (

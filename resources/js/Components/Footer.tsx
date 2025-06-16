@@ -20,7 +20,7 @@ function Footer() {
                             A Student Loan Management Firm dedicated to helping
                             you live your best life.
                         </p>
-                        <div className="flex space-x-4">
+                        {/* <div className="flex space-x-4">
                             <a
                                 href="https://www.tiktok.com/@myeducationsolutions"
                                 className="text-gray-400 hover:text-white transition duration-300"
@@ -63,7 +63,7 @@ function Footer() {
                             >
                                 <i className="fab fa-twitter text-xl"></i>
                             </a>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div>
@@ -79,15 +79,7 @@ function Footer() {
                             </li>
                             <li>
                                 <a
-                                    href="https://myedusolutions.com/about-us/"
-                                    className="text-gray-400 hover:text-white transition duration-300"
-                                >
-                                    About Us
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://myedusolutions.com/reviews/"
+                                    href={route("client-reviews")}
                                     className="text-gray-400 hover:text-white transition duration-300"
                                 >
                                     Client Reviews
@@ -121,14 +113,6 @@ function Footer() {
                                     className="text-gray-400 hover:text-white transition duration-300"
                                 >
                                     Borrower Defense Program
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://caportal.myedusolutions.com/public/substantiation/"
-                                    className="text-gray-400 hover:text-white transition duration-300"
-                                >
-                                    *Substantiation
                                 </a>
                             </li>
                         </ul>

@@ -78,7 +78,7 @@
                     Client Success <i class="fas fa-chevron-down ml-2 text-sm"></i>
                 </button>
                 <div class="dropdown-menu hidden pl-4 mt-2 space-y-3">
-                    <a href="https://myedusolutions.com/reviews/" class="block py-2">Client Reviews</a>
+                    <a href={route('client-reviews')} class="block py-2">Client Reviews</a>
                     <a href="https://caportal.myedusolutions.com/public/substantiation/clientresults.php" class="block py-2">Client Results</a>
                 </div>
             </div>
@@ -135,7 +135,7 @@
                             Client Success <i class="fas fa-chevron-down ml-1 text-xs"></i>
                         </button>
                         <div class="dropdown-menu hidden absolute left-0 mt-2 w-56 bg-white rounded-md shadow-lg py-1 z-10">
-                            <a href="https://myedusolutions.com/reviews/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Client Reviews</a>
+                            <a href={route('client-reviews')} class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Client Reviews</a>
                             <a href="https://caportal.myedusolutions.com/public/substantiation/clientresults.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Client Results</a>
                         </div>
                     </div>
@@ -356,7 +356,7 @@
             </div>
 
             <div class="text-center mt-12">
-                <a href="https://myedusolutions.com/reviews/" class="px-6 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition duration-300 inline-block">See Client Testimonials</a>
+                <a href={route('client-reviews')} class="px-6 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition duration-300 inline-block">See Client Testimonials</a>
             </div>
         </div>
     </section>
@@ -564,7 +564,7 @@
                         <p class="text-green-700 font-medium">Trusted by Thousands</p>
                         <p class="text-gray-700 text-sm mt-1">Learn how MES can help you work towards Government Forgiveness.</p>
                     </div>
-                    <a href="https://myedusolutions.com/reviews/" class="inline-block mt-4 px-4 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300">Watch Videos</a>
+                    <a href={route('client-reviews')} class="inline-block mt-4 px-4 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300">Watch Videos</a>
                 </div>
 
                 <div class="bg-white p-6 rounded-xl shadow-md">
@@ -748,7 +748,7 @@
                     <ul class="space-y-2">
                         <li><a href="https://myedusolutions.com/how-student-loan-debt-forgiveness-programs-work/" class="text-gray-400 hover:text-white transition duration-300">How It Works</a></li>
                         <li><a href="https://myedusolutions.com/about-us/" class="text-gray-400 hover:text-white transition duration-300">About Us</a></li>
-                        <li><a href="https://myedusolutions.com/reviews/" class="text-gray-400 hover:text-white transition duration-300">Client Reviews</a></li>
+                        <li><a href={route('client-reviews')} class="text-gray-400 hover:text-white transition duration-300">Client Reviews</a></li>
                         <li><a href="https://caportal.myedusolutions.com/public/substantiation/clientresults.php" class="text-gray-400 hover:text-white transition duration-300">Client Results</a></li>
                         <li><a href="https://myedusolutions.com/contact-us/" class="text-gray-400 hover:text-white transition duration-300">Contact Us</a></li>
                         <li><a href="https://myedusolutions.com/careers/" class="text-gray-400 hover:text-white transition duration-300">Careers</a></li>

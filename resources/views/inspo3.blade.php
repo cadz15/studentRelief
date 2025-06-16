@@ -73,7 +73,7 @@
                     <div class="dropdown relative">
                         <a href="#" class="nav-link font-medium hover:text-blue-600">Client Success <i class="fas fa-chevron-down text-xs ml-1"></i></a>
                         <div class="dropdown-menu absolute hidden bg-white shadow-lg rounded-md mt-2 py-2 w-48 z-50">
-                            <a href="https://myedusolutions.com/reviews/" class="block px-4 py-2 hover:bg-blue-50">Client Reviews</a>
+                            <a href={route('client-reviews')} class="block px-4 py-2 hover:bg-blue-50">Client Reviews</a>
                             <a href="https://caportal.myedusolutions.com/public/substantiation/clientresults.php" class="block px-4 py-2 hover:bg-blue-50">Client Results</a>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                             <i class="fas fa-chevron-down"></i>
                         </button>
                         <div class="pl-4 mt-2 space-y-2 hidden">
-                            <a href="https://myedusolutions.com/reviews/" class="block px-4 py-2 hover:bg-blue-50">Client Reviews</a>
+                            <a href={route('client-reviews')} class="block px-4 py-2 hover:bg-blue-50">Client Reviews</a>
                             <a href="https://caportal.myedusolutions.com/public/substantiation/clientresults.php" class="block px-4 py-2 hover:bg-blue-50">Client Results</a>
                         </div>
                     </div>
@@ -251,7 +251,7 @@
                 <h2 class="text-3xl font-bold mb-2">TESTIMONIALS</h2>
                 <h3 class="text-2xl text-blue-600 font-medium">I'm debt-free. The program works!</h3>
                 <p class="max-w-2xl mx-auto mt-4">Let our Clients' stories help you make an informed decision. We believe trust lies in the power of personal stories. See how we've helped Clients save money and time and reduce their stress.</p>
-                <a href="https://myedusolutions.com/reviews/" class="inline-block mt-6 bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md font-medium transition-all">See Client Testimonials</a>
+                <a href={route('client-reviews')} class="inline-block mt-6 bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md font-medium transition-all">See Client Testimonials</a>
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
@@ -514,7 +514,7 @@
                         <h4 class="font-bold mb-2">Trusted by Thousands</h4>
                         <p>Learn how MES can help you work towards Government Forgiveness</p>
                     </div>
-                    <a href="https://myedusolutions.com/reviews/" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-medium transition-all">Watch Videos</a>
+                    <a href={route('client-reviews')} class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-medium transition-all">Watch Videos</a>
                 </div>
                 <div class="bg-white p-8 rounded-xl shadow-md">
                     <div class="text-blue-600 text-4xl mb-4">
@@ -674,7 +674,7 @@
                     <ul class="space-y-2">
                         <li><a href="https://myedusolutions.com/how-student-loan-debt-forgiveness-programs-work/" class="hover:text-blue-200">How It Works</a></li>
                         <li><a href="https://myedusolutions.com/about-us/" class="hover:text-blue-200">About Us</a></li>
-                        <li><a href="https://myedusolutions.com/reviews/" class="hover:text-blue-200">Client Reviews</a></li>
+                        <li><a href={route('client-reviews')} class="hover:text-blue-200">Client Reviews</a></li>
                         <li><a href="https://caportal.myedusolutions.com/public/substantiation/clientresults.php" class="hover:text-blue-200">Client Results</a></li>
                         <li><a href="https://myedusolutions.com/contact-us/" class="hover:text-blue-200">Contact Us</a></li>
                         <li><a href="https://myedusolutions.com/careers/" class="hover:text-blue-200">Careers</a></li>

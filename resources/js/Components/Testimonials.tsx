@@ -98,10 +98,7 @@ function Testimonials({ className = "" }) {
                 </div>
 
                 <div className="text-center">
-                    <Link
-                        href="https://myedusolutions.com/reviews/"
-                        className=""
-                    >
+                    <Link href={route("client-reviews")} className="">
                         <CTAButton className="border-blue-400 text-white bg-blue-500 hover:bg-blue-700 hover:text-white">
                             See Client Testimonials
                         </CTAButton>
