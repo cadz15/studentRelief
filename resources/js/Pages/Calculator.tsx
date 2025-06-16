@@ -113,14 +113,14 @@ export default function Calculator() {
                         <p className="mb-8">
                             Answer a few questions here on our calculator to see
                             your options for an{" "}
-                            <a
-                                href="https://myedusolutions.com/programs/student-loan-forgiveness/"
+                            <Link
+                                href={route("student.loan.forgiveness")}
                                 className="underline hover:text-blue-200"
                                 target="_blank"
                                 rel="noreferrer"
                             >
                                 effective student loan debt plan
-                            </a>
+                            </Link>
                             .
                         </p>
                     </div>
