@@ -2,7 +2,8 @@ import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
 import { Head, router } from "@inertiajs/react";
 import { PageProps } from "@/types";
 
-export default function Dashboard({ auth, leads }: PageProps) {
+//typescript with any?
+export default function Dashboard({ auth, leads }: PageProps<any>) {
     const handleExport = () => {
         window.location.href = route("leads.export");
     };
@@ -44,7 +45,7 @@ export default function Dashboard({ auth, leads }: PageProps) {
                                 </tr>
                             </thead>
                             <tbody>
-                                {leads.data.map((leads) => (
+                                {leads.data.map((leads: any) => (
                                     <tr key={leads.id}>
                                         <td className="border px-4 py-2">
                                             {leads.full_name}
@@ -70,7 +71,7 @@ export default function Dashboard({ auth, leads }: PageProps) {
                         </table>
 
                         <div className="mt-4">
-                            {leads.links.map((link, index) => (
+                            {leads.links.map((link: any, index: number) => (
                                 <button
                                     key={index}
                                     disabled={!link.url}
