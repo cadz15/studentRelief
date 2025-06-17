@@ -40,7 +40,11 @@ export default function Login({
         <div className="flex flex-col md:flex-row h-screen">
             <Head title="Log in" />
             <div className="hidden md:flex md:w-1/2 h-full justify-center items-center bg-gradient-to-br from-blue-900 to-blue-600 ">
-                <img src={logo} className="w-1/2 h-1/2 rounded-full" alt="" />
+                <img
+                    src={logo}
+                    className=" xl:w-1/2 xl:h-1/2 rounded-3xl"
+                    alt=""
+                />
             </div>
             <div className="md:w-1/2 w-full h-full p-2 md:p-32 py-20 md:py-32 justify-center  md:bg-gradient-to-br md:from-gray-50 md:to-gray-100 bg-gradient-to-br from-blue-900 to-blue-600">
                 {status && (
