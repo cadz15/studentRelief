@@ -58,14 +58,9 @@ Route::middleware('guest')->group(function() {
     Route::post('/lead', [LeadController::class, 'store'])->name('lead.store');
 });
 
-Route::get('/dashboard', function () {
-    return Inertia::render('Dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
-
-
-
 Route::middleware('auth')->group(function () {
-    
+    Route::get('/leads', [LeadController::class, 'index'])->name('leads');
+    Route::get('/lead/export', [LeadController::class, 'export'])->name('leads.export');
 });
 
 require __DIR__.'/auth.php';
