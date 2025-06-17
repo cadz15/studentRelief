@@ -12,5 +12,8 @@ class Lead extends Model
 
     protected $guarded = ['id', 'created_at', 'updated_at'];
 
-    
+    public function full_name()
+    {
+        return $this->first_name . " " . $this->last_name;
+    }
 }
