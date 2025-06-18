@@ -39,7 +39,8 @@ class LeadController extends Controller
             'enrolled' => ['required', 'in:yes,no'],
         ]);
 
-        dd(Lead::all());
+        $leads = Lead::latest()->paginate(15);
+        dd($leads);
 
         Lead::create($validated);
 
