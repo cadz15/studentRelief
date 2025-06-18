@@ -17,7 +17,6 @@ use Inertia\Inertia;
 |
 */
 
-
     Route::get('/', function () {
         return Inertia::render('Welcome');
     });
@@ -54,7 +53,7 @@ use Inertia\Inertia;
     })->name('speak-to-an-adviser');
 
 
-    Route::post('/lead', [LeadController::class, 'store'])->name('lead.store');
+    Route::post('/lead-store', [LeadController::class, 'store'])->name('lead.store');
 
 Route::middleware('auth')->group(function () {
     Route::get('/leads', [LeadController::class, 'index'])->name('leads');
