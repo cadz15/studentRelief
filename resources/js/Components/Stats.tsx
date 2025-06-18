@@ -7,7 +7,7 @@ function Stats() {
             <div className="2xl:container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
                     <StatCard title="784">
-                        Completed Clients with My Education Solutions
+                        Completed Clients with FCA National Service
                     </StatCard>
                     <StatCard title="101%">
                         Reduction of Our Clients' Student Loan Debt*

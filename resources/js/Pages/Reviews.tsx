@@ -24,7 +24,7 @@ const successStories: SuccessStoriesInterface[] = [
         name: "Ralph L.",
         rating: 5,
         title: '"A worthwhile experience!"',
-        description: `   My Education Solutions has been a godsend
+        description: `   FCA National Service has been a godsend
                                     when it came to handling my financial
                                     educational debt repayment...`,
         video: "",
@@ -34,7 +34,7 @@ const successStories: SuccessStoriesInterface[] = [
         name: "Angie V.",
         rating: 5,
         title: '"Exceptional"',
-        description: `My Education Solutions is a 5 Star company
+        description: `FCA National Service is a 5 Star company
                                     with exceptional customer service and
                                     support...`,
         video: "",
@@ -44,7 +44,7 @@ const successStories: SuccessStoriesInterface[] = [
         name: "Debra M.",
         rating: 5,
         title: '"Friendly and supportive."',
-        description: `I love My Education Solutions because
+        description: `I love FCA National Service because
                                     whenever I have questions about my account
                                     or provide updates...`,
         video: "",
@@ -57,7 +57,7 @@ const clientReviews: ClientReviewInterface[] = [
         name: "Debra Mitchell",
         rating: 5,
         title: '"Friendly and supportive."',
-        description: `I love My Education Solutions because whenever I have questions about my account or provide updates, they are always patient and helpful.`,
+        description: `I love FCA National Service because whenever I have questions about my account or provide updates, they are always patient and helpful.`,
         link: "",
     },
     {

@@ -17,15 +17,15 @@ const faqData: FAQItem[] = [
                 if you have been contacted regarding wage garnishment, we may
                 still be able to help you if you take action quickly. To reach
                 us, please call{" "}
-                <a href="tel:2108123200" className="text-blue-600">
+                <a href="tel:4074367933" className="text-blue-600">
                     (407) 436-7933
                 </a>{" "}
                 or email{" "}
                 <a
-                    href="mailto:Advisors@MyEduSolutions.com"
+                    href="mailto:info@fcanationalservice.org"
                     className="text-blue-600"
                 >
-                    Advisors@MyEduSolutions.com
+                    info@fcanationalservice.org
                 </a>{" "}
                 today.
             </p>
