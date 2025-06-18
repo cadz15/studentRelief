@@ -53,7 +53,7 @@ use Inertia\Inertia;
     })->name('speak-to-an-adviser');
 
 
-    Route::post('/lead-store', [LeadController::class, 'store'])->name('lead');
+    Route::post('/lead-store', [LeadController::class, 'store'])->name('lead.store');
 
 Route::middleware('auth')->group(function () {
     Route::get('/leads', [LeadController::class, 'index'])->name('leads');
