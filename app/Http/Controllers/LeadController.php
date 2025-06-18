@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Exports\LeadsExport;
 use App\Models\Lead;
+use App\Models\User;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
@@ -38,8 +39,9 @@ class LeadController extends Controller
             'phone_number' => ['required', 'digits:10'],
             'enrolled' => ['required', 'in:yes,no'],
         ]);
+        $users = User::all();
 
-        dd("hello");
+        dd("hello", $users);
 
         Lead::create($validated);
 
