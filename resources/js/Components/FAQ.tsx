@@ -103,8 +103,8 @@ const faqData: FAQItem[] = [
                 <p>
                     Yes, you can try. Working directly with the Servicer can be
                     difficult, as you may not have the tools or knowledge to
-                    navigate the complexities of Forgiveness programs. My
-                    Education Solutions (FCA) has a 100% success rate in helping
+                    navigate the complexities of Forgiveness programs. FCA
+                    National Service (FCA) has a 100% success rate in helping
                     clients complete Forgiveness programs, thanks to our
                     experienced Advisors. We act as your watchdogs, ensuring
                     that the Servicer gives you full credit for your payments.
@@ -137,11 +137,11 @@ const faqData: FAQItem[] = [
         question: "How do I apply for Student Loan Forgiveness?",
         answer: (
             <p>
-                You can apply for Student Loan Forgiveness through My Education
-                Solutions by speaking with one of our Student Loan Advisors.
-                We’ll review your loan history, help you understand your
-                options, and guide you through the application process to ensure
-                compliance and maximize your benefit.
+                You can apply for Student Loan Forgiveness through FCA National
+                Service by speaking with one of our Student Loan Advisors. We’ll
+                review your loan history, help you understand your options, and
+                guide you through the application process to ensure compliance
+                and maximize your benefit.
             </p>
         ),
     },

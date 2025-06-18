@@ -343,8 +343,8 @@ function StudentForgiveness() {
 
                         <div className="mb-16">
                             <h2 className="text-3xl font-bold mb-6 text-center">
-                                What is the difference between My Education
-                                Solutions and all the other companies that claim
+                                What is the difference between FCA National
+                                Service and all the other companies that claim
                                 that they can help?
                             </h2>
                             <div className="bg-white p-4 rounded-lg shadow-md">
