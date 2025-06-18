@@ -17,7 +17,6 @@ use Inertia\Inertia;
 |
 */
 
-Route::middleware('guest')->group(function() {
 
     Route::get('/', function () {
         return Inertia::render('Welcome');
@@ -56,7 +55,6 @@ Route::middleware('guest')->group(function() {
 
 
     Route::post('/lead', [LeadController::class, 'store'])->name('lead.store');
-});
 
 Route::middleware('auth')->group(function () {
     Route::get('/leads', [LeadController::class, 'index'])->name('leads');
