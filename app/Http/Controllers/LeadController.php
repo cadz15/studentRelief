@@ -39,6 +39,8 @@ class LeadController extends Controller
             'enrolled' => ['required', 'in:yes,no'],
         ]);
 
+        dd(Lead::all());
+
         Lead::create($validated);
 
         return redirect()->back()->with('success', 'Lead successfully saved!');
