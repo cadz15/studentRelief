@@ -39,10 +39,7 @@ class LeadController extends Controller
             'phone_number' => ['required', 'digits:10'],
             'enrolled' => ['required', 'in:yes,no'],
         ]);
-        $users = User::all();
-
-        dd("hello", $users);
-
+        
         Lead::create($validated);
 
         return redirect()->back()->with('success', 'Lead successfully saved!');
