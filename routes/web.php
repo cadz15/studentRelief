@@ -55,9 +55,18 @@ use Inertia\Inertia;
 
     Route::post('/lead-store', [LeadController::class, 'store'])->name('lead.store');
 
-Route::middleware('auth')->group(function () {
+Route::group(['prefix' => "admin", "middleware"=> "auth"], function () {
     Route::get('/leads', [LeadController::class, 'index'])->name('leads');
     Route::get('/lead/export', [LeadController::class, 'export'])->name('leads.export');
+
+
+    Route::get('/', function() {
+        return Inertia::render('LeadPage');
+    })->name('speak-to-an-adviser');
+
+    Route::get("/site-settings", function() {
+
+    })->name('site.settings');
 });
 
 require __DIR__.'/auth.php';

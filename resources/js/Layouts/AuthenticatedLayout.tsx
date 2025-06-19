@@ -5,6 +5,7 @@ import NavLink from "@/Components/NavLink";
 import ResponsiveNavLink from "@/Components/ResponsiveNavLink";
 import { Link } from "@inertiajs/react";
 import { User } from "@/types";
+import NavLinkDropDown from "@/Components/NavLinkDropDown";
 
 export default function Authenticated({
     user,
@@ -13,6 +14,8 @@ export default function Authenticated({
 }: PropsWithChildren<{ user: User; header?: ReactNode }>) {
     const [showingNavigationDropdown, setShowingNavigationDropdown] =
         useState(false);
+
+    console.log(route().current("leads"));
 
     return (
         <div className="min-h-screen bg-gray-100">
@@ -26,12 +29,80 @@ export default function Authenticated({
                                 </Link>
                             </div>
 
-                            <div className="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                            <div className="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex ">
                                 <NavLink
                                     href={route("leads")}
                                     active={route().current("leads")}
                                 >
                                     Leads
+                                </NavLink>
+                                <div className="nav-link py-2 text-nowrap flex flex-col justify-center font-medium border-b-transparent border-b-2 hover:border-b-orange-300 hover:text-orange-300 transition duration-150">
+                                    <NavLinkDropDown title="CMS Sections">
+                                        <Link
+                                            href={route(
+                                                "student.loan.forgiveness"
+                                            )}
+                                            className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-yellow-500"
+                                        >
+                                            Hero
+                                        </Link>
+                                        <Link
+                                            href={route("disability-discharge")}
+                                            className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-yellow-500"
+                                        >
+                                            Stress Free
+                                        </Link>
+                                        <Link
+                                            href={route(
+                                                "borrower-defense-program"
+                                            )}
+                                            className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-yellow-500"
+                                        >
+                                            Who Are We
+                                        </Link>
+                                        <Link
+                                            href={route(
+                                                "borrower-defense-program"
+                                            )}
+                                            className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-yellow-500"
+                                        >
+                                            Student Loan Forgiveness
+                                        </Link>
+                                        <Link
+                                            href={route(
+                                                "borrower-defense-program"
+                                            )}
+                                            className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-yellow-500"
+                                        >
+                                            Disability Discharge
+                                        </Link>
+                                        <Link
+                                            href={route(
+                                                "borrower-defense-program"
+                                            )}
+                                            className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-yellow-500"
+                                        >
+                                            Borrower Defense Program
+                                        </Link>
+                                    </NavLinkDropDown>
+                                </div>
+                                <NavLink
+                                    href={route("site.settings")}
+                                    active={route().current("site.settings")}
+                                >
+                                    FAQ
+                                </NavLink>
+                                <NavLink
+                                    href={route("site.settings")}
+                                    active={route().current("site.settings")}
+                                >
+                                    Testimonials
+                                </NavLink>
+                                <NavLink
+                                    href={route("site.settings")}
+                                    active={route().current("site.settings")}
+                                >
+                                    Site Settings
                                 </NavLink>
                             </div>
                         </div>

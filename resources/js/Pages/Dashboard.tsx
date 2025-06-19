@@ -20,10 +20,10 @@ export default function Dashboard({ auth, leads }: PageProps<any>) {
 
             <div className="py-12">
                 <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                    <div className="overflow-hidden  sm:rounded-lg">
+                    <div className="overflow-hidden ">
                         <button
                             onClick={handleExport}
-                            className="mb-4 px-4 py-2 bg-green-600 text-white rounded"
+                            className="mb-4 px-4 py-2 bg-green-600 text-white rounded-sm"
                         >
                             Export to Excel
                         </button>

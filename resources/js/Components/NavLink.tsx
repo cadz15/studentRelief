@@ -10,10 +10,10 @@ export default function NavLink({
         <Link
             {...props}
             className={
-                "nav-link px-4 py-2 text-nowrap flex flex-col justify-center font-medium border-b-transparent border-b-2 hover:border-b-orange-300 hover:text-orange-300 transition duration-150 " +
+                "nav-link px-4 py-2 text-nowrap flex flex-col justify-center font-medium border-b-2 hover:border-b-orange-300 hover:text-orange-300 transition duration-150 " +
                 (active
-                    ? "border-b-orange-300 "
-                    : "hover:bg-white hover:bg-opacity-10 ") +
+                    ? " border-b-orange-300 "
+                    : "hover:bg-white hover:bg-opacity-10 border-b-transparent ") +
                 className
             }
         >
