@@ -39,47 +39,37 @@ export default function Authenticated({
                                 <div className="nav-link py-2 text-nowrap flex flex-col justify-center font-medium border-b-transparent border-b-2 hover:border-b-orange-300 hover:text-orange-300 transition duration-150">
                                     <NavLinkDropDown title="CMS Sections">
                                         <Link
-                                            href={route(
-                                                "student.loan.forgiveness"
-                                            )}
+                                            href="#"
                                             className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-yellow-500"
                                         >
                                             Hero
                                         </Link>
                                         <Link
-                                            href={route("disability-discharge")}
+                                            href="#"
                                             className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-yellow-500"
                                         >
                                             Stress Free
                                         </Link>
                                         <Link
-                                            href={route(
-                                                "borrower-defense-program"
-                                            )}
+                                            href="#"
                                             className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-yellow-500"
                                         >
                                             Who Are We
                                         </Link>
                                         <Link
-                                            href={route(
-                                                "borrower-defense-program"
-                                            )}
+                                            href="#"
                                             className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-yellow-500"
                                         >
                                             Student Loan Forgiveness
                                         </Link>
                                         <Link
-                                            href={route(
-                                                "borrower-defense-program"
-                                            )}
+                                            href="#"
                                             className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-yellow-500"
                                         >
                                             Disability Discharge
                                         </Link>
                                         <Link
-                                            href={route(
-                                                "borrower-defense-program"
-                                            )}
+                                            href="#"
                                             className="block px-4 py-2 text-nowrap text-gray-800 hover:bg-yellow-500"
                                         >
                                             Borrower Defense Program
@@ -87,19 +77,19 @@ export default function Authenticated({
                                     </NavLinkDropDown>
                                 </div>
                                 <NavLink
-                                    href={route("site.settings")}
+                                    href="#"
                                     active={route().current("site.settings")}
                                 >
                                     FAQ
                                 </NavLink>
                                 <NavLink
-                                    href={route("site.settings")}
+                                    href="#"
                                     active={route().current("site.settings")}
                                 >
                                     Testimonials
                                 </NavLink>
                                 <NavLink
-                                    href={route("site.settings")}
+                                    href="#"
                                     active={route().current("site.settings")}
                                 >
                                     Site Settings

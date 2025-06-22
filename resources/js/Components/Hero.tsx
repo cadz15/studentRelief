@@ -1,7 +1,7 @@
-import React from "react";
-import PrimaryButton from "./PrimaryButton";
 import CTAButton from "./CTAButton";
 import { Link } from "@inertiajs/react";
+
+import video from "@/../../resources/video/video.mp4";
 
 function Hero() {
     return (
@@ -30,7 +30,7 @@ function Hero() {
                     className="mt-12 w-11/12 md:w-8/12"
                     controls
                     loop
-                    src="https://fcanationalservice.org/storage/uploads/video1.mp4"
+                    src={video}
                 ></video>
             </div>
         </section>
