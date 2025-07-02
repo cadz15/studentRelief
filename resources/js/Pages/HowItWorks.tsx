@@ -20,7 +20,7 @@ function HowItWorks() {
                         </h2>
                         <p className="text-lg mb-8">
                             Rest assured, there's a solution to your mounting
-                            student loan debt. Let the FCA advisor who
+                            student loan debt. Let the FCA Specialist who
                             specializes in student loan debt management leverage
                             their experience to help you successfully achieve
                             financial freedom.
@@ -30,7 +30,7 @@ function HowItWorks() {
                                 href={route("speak-to-an-adviser")}
                                 className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 font-bold py-3 px-6 rounded-sm text-center transition"
                             >
-                                Speak to an Advisor
+                                Speak to an Specialist
                             </a>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ function HowItWorks() {
                                     1
                                 </div>
                                 <h3 className="text-xl font-semibold">
-                                    Speak to an Advisor
+                                    Speak to an Specialist
                                 </h3>
                             </div>
                             <p className="text-gray-600">
@@ -187,7 +187,7 @@ function HowItWorks() {
                             href={route("speak-to-an-adviser")}
                             className="bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-bold py-3 px-6 rounded-sm transition"
                         >
-                            Speak to an Advisor
+                            Speak to an Specialist
                         </a>
                     </div>
                 </div>

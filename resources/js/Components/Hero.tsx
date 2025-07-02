@@ -21,7 +21,7 @@ function Hero() {
                     </Link>
                     <Link href={route("speak-to-an-adviser")}>
                         <CTAButton className="border-yellow-400 hover:bg-white hover:border-white bg-yellow-500 text-blue-900">
-                            Speak to an advisor
+                            Speak to an Specialist
                         </CTAButton>
                     </Link>
                 </div>

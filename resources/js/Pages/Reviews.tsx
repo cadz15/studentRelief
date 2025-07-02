@@ -327,7 +327,7 @@ function Reviews() {
                             href={route("speak-to-an-adviser")}
                             className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-sm font-medium text-lg transition shadow-lg"
                         >
-                            Speak to an Advisor
+                            Speak to an Specialist
                         </Link>
                     </div>
                 </div>

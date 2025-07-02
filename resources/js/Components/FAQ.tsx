@@ -35,8 +35,8 @@ const faqData: FAQItem[] = [
         question: "How long does the enrollment process take?",
         answer: (
             <p>
-                Your FCA Student Loan Advisor will process your application and
-                answer all your questions. Approvals by the Department of
+                Your FCA Student Loan Specialist will process your application
+                and answer all your questions. Approvals by the Department of
                 Education can be decided within 10 business days. FCA will stay
                 in touch through the process.
             </p>
@@ -63,7 +63,7 @@ const faqData: FAQItem[] = [
                 <ul className="list-disc pl-5 mt-2 space-y-1">
                     <li>
                         Direct access to speak with a solution-oriented Student
-                        Loan Advisor
+                        Loan Specialist
                     </li>
                     <li>
                         FCA Advisors audit & resolve Servicer posting errors for
@@ -108,7 +108,7 @@ const faqData: FAQItem[] = [
                     clients complete Forgiveness programs, thanks to our
                     experienced Advisors. We act as your watchdogs, ensuring
                     that the Servicer gives you full credit for your payments.
-                    You can have an experienced Advisor take care of your
+                    You can have an experienced Specialist take care of your
                     student loans for you, freeing up your time and energy.
                 </p>
                 <p className="mt-2">
@@ -149,8 +149,8 @@ const faqData: FAQItem[] = [
         question: "How long does the enrollment process take?",
         answer: (
             <p>
-                Your FCA Student Loan Advisor will process your application and
-                answer all your questions. Approvals by the Department of
+                Your FCA Student Loan Specialist will process your application
+                and answer all your questions. Approvals by the Department of
                 Education can be decided within 10 business days. FCA will stay
                 in touch through the process.
             </p>
@@ -232,10 +232,10 @@ const faqData: FAQItem[] = [
         question: "What is unique about FCA National Service?",
         answer: (
             <p>
-                FCA is unique in offering a personal advisor for every client,
-                continuous compliance monitoring, and audit support. We have a
-                100% success rate with forgiveness applications and prioritize
-                client outcoFCA above all else.
+                FCA is unique in offering a personal Specialist for every
+                client, continuous compliance monitoring, and audit support. We
+                have a 100% success rate with forgiveness applications and
+                prioritize client outcoFCA above all else.
             </p>
         ),
     },
