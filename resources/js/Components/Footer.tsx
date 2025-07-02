@@ -173,12 +173,12 @@ function Footer() {
                             Service. All rights reserved.
                         </div>
                         <div className="flex space-x-4">
-                            {/* <a
-                                href="https://myedusolutions.com/terms-conditions/"
+                            <a
+                                href={route("privacy-policy")}
                                 className="text-gray-400 hover:text-white transition duration-300 text-sm"
                             >
-                                Terms & Conditions
-                            </a> */}
+                                Privacy Policy
+                            </a>
                         </div>
                     </div>
                 </div>

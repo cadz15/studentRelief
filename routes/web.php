@@ -52,8 +52,15 @@ use Inertia\Inertia;
         return Inertia::render('LeadPage');
     })->name('speak-to-an-adviser');
 
+    Route::get('/privacy-policy', function() {
+        return Inertia::render('Terms');
+    })->name('privacy-policy');
+
 
     Route::post('/lead-store', [LeadController::class, 'store'])->name('lead.store');
+
+
+    Route::get('/get-uploads/{filename}', [LeadController::class, 'getFile'])->name('get-file');
 
 Route::group(['prefix' => "admin", "middleware"=> "auth"], function () {
     Route::get('/leads', [LeadController::class, 'index'])->name('leads');

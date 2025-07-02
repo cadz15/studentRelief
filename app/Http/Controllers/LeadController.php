@@ -49,4 +49,16 @@ class LeadController extends Controller
     {
         return Excel::download(new LeadsExport, 'studentleads.xlsx');
     }
+
+
+    public function getFile($filename)
+    {
+        $path = storage_path('app/public/uploads/' . $filename);
+
+        if (!file_exists($path)) {
+            abort(404);
+        }
+
+        return response()->file($path);
+    }
 }
