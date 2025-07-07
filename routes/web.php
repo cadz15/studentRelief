@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LeadController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
@@ -71,9 +72,7 @@ Route::group(['prefix' => "admin", "middleware"=> "auth"], function () {
         return Inertia::render('LeadPage');
     })->name('speak-to-an-adviser');
 
-    Route::get("/site-settings", function() {
-
-    })->name('site.settings');
+    Route::get("/site-settings", [AdminController::class, 'siteSetting'])->name('site.settings');
 });
 
 require __DIR__.'/auth.php';

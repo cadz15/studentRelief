@@ -89,7 +89,7 @@ export default function Authenticated({
                                     Testimonials
                                 </NavLink>
                                 <NavLink
-                                    href="#"
+                                    href={route("site.settings")}
                                     active={route().current("site.settings")}
                                 >
                                     Site Settings
