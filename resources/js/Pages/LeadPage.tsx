@@ -27,7 +27,7 @@ function LeadPage() {
                                 <span className="checkmark">
                                     <FaCheckCircle className="text-green-500 mr-4" />
                                 </span>
-                                <span>No upfront fees</span>
+                                <span>Pre-qualification offers</span>
                             </div>
                             <div className="flex items-center">
                                 <span className="checkmark">
