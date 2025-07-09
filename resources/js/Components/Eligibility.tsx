@@ -105,7 +105,7 @@ function Eligibility() {
                         </Link>
                         <Link href={route("speak-to-an-adviser")}>
                             <CTAButton className="border-yellow-400 hover:bg-white bg-yellow-500 text-blue-900">
-                                Speak to an Specialist
+                                Speak to a Specialist
                             </CTAButton>
                         </Link>
                     </div>
@@ -195,7 +195,7 @@ function Eligibility() {
                                 href={route("speak-to-an-adviser")}
                                 className="inline-block w-fit justify-self-end bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-sm font-medium transition-all"
                             >
-                                Speak to an Specialist
+                                Speak to a Specialist
                             </Link>
                         </div>
                     </div>

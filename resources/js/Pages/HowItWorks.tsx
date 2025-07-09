@@ -30,7 +30,7 @@ function HowItWorks() {
                                 href={route("speak-to-an-adviser")}
                                 className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 font-bold py-3 px-6 rounded-sm text-center transition"
                             >
-                                Speak to an Specialist
+                                Speak to a Specialist
                             </a>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ function HowItWorks() {
                                     1
                                 </div>
                                 <h3 className="text-xl font-semibold">
-                                    Speak to an Specialist
+                                    Speak to a Specialist
                                 </h3>
                             </div>
                             <p className="text-gray-600">
@@ -187,7 +187,7 @@ function HowItWorks() {
                             href={route("speak-to-an-adviser")}
                             className="bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-bold py-3 px-6 rounded-sm transition"
                         >
-                            Speak to an Specialist
+                            Speak to a Specialist
                         </a>
                     </div>
                 </div>

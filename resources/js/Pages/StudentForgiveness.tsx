@@ -154,7 +154,7 @@ function StudentForgiveness() {
                                 plan, we will monitor the payments and industry
                                 changes closely to address any issues that may
                                 arise. If you are considering the SAVE Plan,
-                                speak to an FCA Specialist to check your
+                                speak to FCA Specialist to check your
                                 eligibility and see how much you could save
                                 every month.
                             </p>
@@ -203,7 +203,7 @@ function StudentForgiveness() {
                                         <FaHeadset />
                                     </div>
                                     <h3 className="text-xl font-bold mb-2">
-                                        Speak to an Specialist
+                                        Speak to a Specialist
                                     </h3>
                                     <p>
                                         Speak to one of our friendly

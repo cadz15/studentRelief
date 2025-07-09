@@ -71,7 +71,7 @@ const Nav = ({ className = "", ...props }) => {
                         href={route("speak-to-an-adviser")}
                         className="ml-2 bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold px-6 py-2 rounded-sm transition duration-300"
                     >
-                        Speak to an Specialist
+                        Speak to a Specialist
                     </Link>
                 </div>
 
@@ -146,7 +146,7 @@ const Nav = ({ className = "", ...props }) => {
                         className="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold px-4 py-2 rounded-sm transition duration-300 text-center"
                         onClick={closeMenu}
                     >
-                        Speak to an Specialist
+                        Speak to a Specialist
                     </Link>
                 </nav>
             </div>

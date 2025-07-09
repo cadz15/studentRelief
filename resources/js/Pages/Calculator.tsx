@@ -339,7 +339,7 @@ export default function Calculator() {
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-4">
                     <h2 className="text-3xl font-bold text-center mb-12">
-                        Speak with an Specialist to check your eligibility.
+                        Speak with a Specialist to check your eligibility.
                     </h2>
                     <p className="text-xl text-center mb-12">
                         We're dedicated to helping you Live Your Best Life!
@@ -424,7 +424,7 @@ export default function Calculator() {
                                 },
                                 {
                                     href: route("speak-to-an-adviser"),
-                                    label: "Speak to an Specialist",
+                                    label: "Speak to a Specialist",
                                 },
                             ].map(({ href, label }) => (
                                 <a
