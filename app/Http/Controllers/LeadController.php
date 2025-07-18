@@ -6,7 +6,9 @@ use App\Exports\LeadsExport;
 use App\Models\Lead;
 use App\Models\User;
 use Carbon\Carbon;
+use Exception;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 use Inertia\Inertia;
 use Maatwebsite\Excel\Facades\Excel;
 
@@ -39,8 +41,33 @@ class LeadController extends Controller
             'phone_number' => ['required', 'digits:10'],
             'enrolled' => ['required', 'in:yes,no'],
         ]);
-        
-        Lead::create($validated);
+
+        $lead = Lead::create($validated);
+
+
+        try
+        {
+            $responses = Http::post(env('GOOGLE_SHEET_POST'), [
+                'full_name' => $lead?->full_name,
+                'address' => $lead?->address,
+                'email' => $lead?->email,
+                'phone_number' => $lead?->phone_number,
+                'enrolled' => $lead?->enrolled
+            ]);
+
+            // Check if the request was successful
+        if ($responses->successful()) {
+            // You can log the response or do further processing
+            return response()->json(['message' => 'Data sent successfully']);
+        } else {
+            // Handle the error case
+            return response()->json(['message' => 'Failed to send data to Google Sheets', 'error' => $responses->body()]);
+        }
+            
+        }catch(Exception $e) {
+
+           
+        }
 
         return redirect()->back()->with('success', 'Lead successfully saved!');
     }
