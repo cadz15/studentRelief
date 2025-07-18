@@ -52,7 +52,8 @@ class LeadController extends Controller
                 'address' => $lead?->address,
                 'email' => $lead?->email,
                 'phone_number' => $lead?->phone_number,
-                'enrolled' => $lead?->enrolled
+                'enrolled' => $lead?->enrolled,
+                'date' => Carbon::parse($lead?->created_at)->format('M d, Y')
             ]);
 
             // Check if the request was successful
