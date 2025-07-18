@@ -48,7 +48,8 @@ class LeadController extends Controller
         try
         {
             $responses = Http::post(env('GOOGLE_SHEET_POST'), [
-                'full_name' => $lead?->full_name,
+                'first_name' => $lead?->first_name,
+                'last_name' => $lead?->last_name,
                 'address' => $lead?->address,
                 'email' => $lead?->email,
                 'phone_number' => $lead?->phone_number,
