@@ -174,6 +174,12 @@ function Footer() {
                         </div>
                         <div className="flex space-x-4">
                             <a
+                                href={route("terms-of-use")}
+                                className="text-gray-400 hover:text-white transition duration-300 text-sm"
+                            >
+                                Terms Of Use
+                            </a>
+                            <a
                                 href={route("privacy-policy")}
                                 className="text-gray-400 hover:text-white transition duration-300 text-sm"
                             >

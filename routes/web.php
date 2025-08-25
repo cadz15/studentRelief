@@ -53,8 +53,12 @@ use Inertia\Inertia;
         return Inertia::render('LeadPage');
     })->name('speak-to-an-adviser');
 
-    Route::get('/privacy-policy', function() {
+    Route::get('/terms-of-use', function() {
         return Inertia::render('Terms');
+    })->name('terms-of-use');
+
+    Route::get('/privacy-policy', function() {
+        return Inertia::render('Policy');
     })->name('privacy-policy');
 
 

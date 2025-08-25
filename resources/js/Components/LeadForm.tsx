@@ -255,17 +255,47 @@ function LeadForm({ title = "" }) {
                     <div className="mb-6">
                         <input type="checkbox" name="" id="check" required />
                         <label htmlFor="check" className="text-sm ml-2">
-                            By clicking “Submit”, you agree that the phone
-                            number and email address you are providing may be
-                            used to contact you by FCA National Service
-                            (including auto-dialed/auto-selected and prerecorded
-                            calls, as well as text/SMS messages). Msg. and data
-                            rates apply, and your consent to such
-                            contact/marketing is not required for purchase. We
-                            may also e-mail you and you may let us know at any
-                            time if you are no longer interested in hearing from
-                            us via a particular communication platform.
+                            By checking this box, I consent to receive
+                            transactional messages from FCA National related to
+                            my account, orders, or services I have requested.
+                            These messages may include appointment reminders,
+                            order confirmations, and account notifications among
+                            others. Message frequency may vary. Message & Data
+                            rates may apply. Reply HELP for help or STOP to
+                            opt-out.
                         </label>
+                    </div>
+                    <div className="mb-6">
+                        <input type="checkbox" name="" id="check2" required />
+                        <label htmlFor="check2" className="text-sm ml-2">
+                            By checking this box, I consent to receive marketing
+                            and promotional messages, including special offers,
+                            discounts, new product updates among others. Message
+                            frequency may vary. Message & Data rates may apply.
+                            Reply HELP for help or STOP to opt-out.
+                        </label>
+                    </div>
+
+                    <div className="mb-6">
+                        <hr />
+                        <div>
+                            You may also read our{" "}
+                            <a
+                                href={route("terms-of-use")}
+                                target="_blank"
+                                className="font-bold"
+                            >
+                                <u>Terms of Use</u>
+                            </a>{" "}
+                            and{" "}
+                            <a
+                                href={route("privacy-policy")}
+                                target="_blank"
+                                className="font-bold"
+                            >
+                                <u>Privacy Policy</u>
+                            </a>
+                        </div>
                     </div>
 
                     <div className="text-center">
